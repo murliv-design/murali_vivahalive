@@ -1,0 +1,1091 @@
+.MomentCaptureMainDiv {    
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.carouselItemDivOne {
+background-image: url(../img/wedding\ two.jpeg);
+background-size: cover;
+background-position: center;
+  background-repeat: no-repeat;
+}
+
+.carouselItemDivTwo {
+background-image: url(../img/chirstian\ wedding.jpeg);
+background-size: cover;
+background-position: center;
+  background-repeat: no-repeat;
+}
+
+.carouselItemDivThree {
+background-image: url(../img/musilm\ wedding.jpeg);
+background-size: cover;
+background-position: center;
+  background-repeat: no-repeat;
+}
+
+.carouselItemDivOne::before, .carouselItemDivTwo::before, .carouselItemDivThree::before {
+content: '';
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+background-color: rgba(0, 0, 0, 0.3); /* Black tint, 50% opacity */
+height: 100%;
+}
+
+.carouselItem1 h2 {
+  font-family: "Abhaya Libre", serif;
+  font-size: 50px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #fff;
+  margin-bottom: 28px;
+  z-index: 1;
+}
+
+.carouselItem1 p {
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #fff;
+  margin-bottom: 50px;
+  z-index: 1;
+}
+
+.carouselItem1 .getStarted, .carouselItem1 .signUp {
+z-index: 1;
+}
+
+.carouselItem1 .signUp:hover {
+color: #d7a844;
+}
+
+.carouselItem1 .getStarted, .weddingPhotography .getStarted, .digitalServicesBtn .getStarted{
+  font-family: "Poppins", sans-serif;
+font-size: 16px;
+font-weight: 500;
+font-stretch: normal;
+font-style: normal;
+line-height: normal;
+letter-spacing: normal;
+text-align: center;
+color: #fff;
+border-radius: 3px;
+box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+border: solid 1px #d7a844;
+background: #d7a844;
+padding:10px;
+width:155px;
+margin-right:20px;
+text-decoration: none;
+}
+
+.signUp {
+width: 155px;
+border-radius: 3px;
+box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+border: solid 1px #d7a844;
+font-family: Poppins;
+font-size: 16px;
+font-weight: 500;
+font-stretch: normal;
+font-style: normal;
+line-height: normal;
+letter-spacing: normal;
+text-align: center;
+color: #fff;
+text-decoration: none;
+padding: 10px;
+}
+
+.carousel-item {
+height: 100%;
+}
+
+.carousel-item .carouselItemDiv {
+display: flex !important;
+flex-direction: column !important;
+align-items: center !important;
+justify-content: center !important;
+height: 100%;
+padding-left: 70px;
+padding-right: 70px;
+}
+
+.carousel-indicators button {
+width: 14px!important;
+height: 14px!important;
+border-radius: 50%;
+background-color: transparent!important;
+border: 1px solid #d7a844!important;
+background-clip: unset!important;
+}
+
+.carousel-indicators .active {
+background-color: #d7a844!important;
+}
+
+.carousel-control-prev {
+justify-content: start!important;
+margin-left: 2% !important;
+}
+
+.carousel-control-next {
+justify-content: end!important;
+margin-right: 3% !important;
+}
+
+.carousel-control-next, .carousel-control-prev {
+opacity: 1!important;
+}
+
+.leftCarouselArrow, .rightCarouselArrow {
+box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.16);
+border: solid 0.5px #e6e6e6;
+background-color: #fff;
+padding: 10px;
+border-radius: 50%;
+opacity: 1 !important;
+width: 40px;
+height: 40px;
+align-items: center;
+display: flex;
+justify-content: center;
+}
+.leftCarouselArrow:hover, .rightCarouselArrow:hover,.leftCarouselArrow:focus, .rightCarouselArrow:focus{
+  background-color: #d7a844;
+  border-color: #d7a844;
+}
+.leftCarouselArrow:hover svg path, .rightCarouselArrow:hover svg path,.leftCarouselArrow:focus svg path, .rightCarouselArrow:focus svg path{
+fill:#fff;
+}
+
+.introduction h5{
+font-family: "Poppins", sans-serif;
+font-size: 16px;
+font-weight: 300;
+font-stretch: normal;
+font-style: normal;
+line-height: normal;
+letter-spacing: normal;
+text-align: left;
+color: #050922;
+margin-bottom:7px;
+}
+
+.introduction p {
+font-family: "Poppins", sans-serif;
+font-size: 16px;
+font-weight: 300;
+font-stretch: normal;
+font-style: normal;
+line-height: normal;
+letter-spacing: normal;
+text-align: left;
+color: #050922;
+margin-bottom: 24px;
+}
+
+.weddingPhotography h2 {
+font-family: "Abhaya Libre", serif;
+font-size: 42px;
+font-weight: bold;
+font-stretch: normal;
+font-style: normal;
+line-height: normal;
+letter-spacing: normal;
+text-align: center;
+color: #050922;
+margin-bottom: 25px;
+padding: 0px 17%;
+}
+
+.weddingPhotography p {
+font-family: "Poppins", sans-serif;
+font-size: 17px;
+font-weight: normal;
+font-stretch: normal;
+font-style: normal;
+line-height: normal;
+letter-spacing: normal;
+text-align: center;
+color: #373b54;
+margin-bottom: 50px;
+padding: 0px 17%;
+}
+
+.showcaseRow img {
+border: solid 2px #f5f5f5;
+object-fit: cover;
+}
+
+.introduction {
+margin-top: 30px;
+}
+
+.weddingPhotography {
+margin-top: 35px;
+}
+
+.introduction::after {
+position: absolute;
+content: url(../img/introMask.png);
+right: 0;
+top: -70px;
+z-index: -1;
+opacity: 0.7;
+}
+
+.showcaseRow:before {
+position: absolute;
+content: url(../img/showcaseBefore.png);
+bottom: 0;
+left: 0;
+z-index: -1;
+}
+
+.showcaseRow {
+padding: 0px 10%;
+}
+
+.weddingPhotography .getStarted, .digitalServicesBtn .getStarted {
+margin-top: 44px;
+}
+
+.photoGalleryDivOneText {
+position: absolute;
+bottom: 15px;
+left: 35px;
+z-index: 1;
+}
+
+.photoGalleryDivOneText h3 {
+font-family: AbhayaLibre;
+font-size: 34px;
+font-weight: bold;
+font-stretch: normal;
+font-style: normal;
+line-height: normal;
+letter-spacing: normal;
+text-align: left;
+color: #fff;
+}
+
+.photoGalleryDivOneText h4 {
+font-family: Poppins;
+font-size: 22px;
+font-weight: normal;
+font-stretch: normal;
+font-style: normal;
+line-height: normal;
+letter-spacing: normal;
+text-align: left;
+color: #fff;
+}
+
+.photoGalleryDivOne {
+position: relative;
+}
+
+.photoGalleryDivOne::after {
+content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 50%; /* Height of the tint from the bottom */
+  background: linear-gradient(to top, rgba(0, 0, 0, 1), transparent);
+}
+
+.showcaseRow img:hover {
+border: solid 2px #d7a844;
+box-shadow: 0 3px 5px 0 rgba(0, 0, 0, 0.16);
+}
+
+.digitalServices h2 {
+font-family: "Abhaya Libre", serif;
+font-size: 42px;
+font-weight: bold;
+font-stretch: normal;
+font-style: normal;
+line-height: normal;
+letter-spacing: normal;
+text-align: center;
+color: #373b54;
+margin-bottom: 14px;
+padding: 0px 17%;
+}
+
+.digitalServices p {
+font-family: "Poppins", sans-serif;
+font-size: 17px;
+font-weight: normal;
+font-stretch: normal;
+font-style: normal;
+line-height: normal;
+letter-spacing: normal;
+text-align: center;
+color: #373b54;
+margin-bottom: 50px;
+padding: 0px 17%;
+}
+
+.canvasAlbum h4, .expert h4, .service h4, .equipments h4 {
+font-family: "Poppins", sans-serif;
+font-size: 19px;
+font-weight: 600;
+font-stretch: normal;
+font-style: normal;
+line-height: normal;
+letter-spacing: 1.43px;
+text-align: left;
+color: #050922;
+margin-bottom: 14px;
+margin-top: 17px;
+}
+
+.canvasAlbum p, .expert p, .service p, .equipments p {
+font-family: "Poppins", sans-serif;
+font-size: 12px;
+font-weight: normal;
+font-stretch: normal;
+font-style: normal;
+line-height: normal;
+letter-spacing: normal;
+text-align: left;
+color: #666;
+}
+
+.canvasAlbum, .expert, .service, .equipments {
+padding: 43px;
+box-shadow: 0 0 11px 0 rgba(0, 0, 0, 0.16);
+border: solid 1px #f5f5f5;
+background-color: #fff;
+cursor: pointer;
+height: 100%;
+}
+
+.canvasAlbum:hover, .expert:hover, .service:hover, .equipments:hover {
+border-color: #fc2159;
+border-radius: 3px;
+}
+
+.canvasAlbum:hover svg path, .expert:hover svg path, .service:hover svg path, .equipments:hover svg path { 
+stroke: #fc2159 !important;
+}
+
+.digitalServices {
+margin-top: 45px;
+}
+
+.digitalServicesCardsDiv {
+padding: 0px 60px;
+}
+
+.digitalServicesCarousel {
+display: none;
+}
+
+.digitalServicesBtn .getStarted {
+margin-right: 0px !important;
+}
+
+.VivahaLiveSpecialization h2 {
+font-family: "Abhaya Libre", serif;
+font-size: 42px;
+font-weight: bold;
+font-stretch: normal;
+font-style: normal;
+line-height: normal;
+letter-spacing: normal;
+text-align: center;
+color: #050922;
+margin-bottom: 14px;
+text-transform: capitalize;
+padding: 0px 17%;
+}
+
+.VivahaLiveSpecialization .weCapture {
+width: 100%;
+font-family: "Poppins", sans-serif;
+font-size: 17px;
+font-weight: normal;
+font-stretch: normal;
+font-style: normal;
+line-height: normal;
+letter-spacing: normal;
+text-align: center;
+color: #373b54;
+margin-bottom: 50px;
+padding: 0px 17%;
+}
+
+.specializationImgs {
+padding-left: 8%;
+padding-right: 8%;
+}
+
+.specializationImgs img {
+border-radius: 3px;
+box-shadow: 0 0 12px 0 rgba(0, 0, 0, 0.16);
+height: 218px;
+object-fit: cover;
+}
+
+.specializationImgs p {
+font-family: "Abhaya Libre", serif;
+font-size: 30px;
+font-weight: bold;
+font-stretch: normal;
+font-style: normal;
+line-height: normal;
+letter-spacing: normal;
+text-align: center;
+color: #050922;
+margin-top: 20px;
+margin-bottom: 50px;
+}
+
+.VivahaLiveSpecialization {
+margin-top: 45px;
+}
+
+.digitalServicesBtn::after {
+position: absolute;
+content: url(../img/introMask.png);
+  top: -58px;
+  right: 0;
+  z-index: -1;
+}
+
+.VivahaLiveSpecialization:before {
+position: absolute;
+content: url(../img/Group\ 13448.png);
+left: 0;
+bottom: 20%;
+z-index: -1;
+}
+
+.whatWePromiseContents h2 {
+font-family: "Abhaya Libre", serif;
+font-size: 42px;
+font-weight: bold;
+font-stretch: normal;
+font-style: normal;
+line-height: normal;
+letter-spacing: normal;
+text-align: center;
+color: #050922;
+margin-bottom: 10px;
+}
+
+.whatWePromiseContents .weCapture {
+font-family: "Poppins", sans-serif;
+font-size: 17px;
+font-weight: normal;
+font-stretch: normal;
+font-style: normal;
+line-height: normal;
+letter-spacing: normal;
+text-align: center;
+color: #373b54;
+margin-bottom: 50px;
+}
+
+.whatWePromiseMainDiv {
+background-color: #fff6e3;
+position: relative;
+padding: 50px;
+margin-top: 30px;
+}
+
+.whatWePromiseMainDiv:before {
+position: absolute;
+content: url(../img/lotus.png);
+right: 0;
+bottom: 0;
+}
+
+.whatWePromiseImgDiv {
+padding: 0px 20%;
+}
+
+.whatWePromiseImgDivs {
+padding: 30px;
+background-color: #fff;
+position: relative;
+z-index: 2;
+}
+
+.individualPromiseDiv p {
+font-family: AbhayaLibre;
+font-size: 24px;
+font-weight: bold;
+font-stretch: normal;
+font-style: normal;
+line-height: normal;
+letter-spacing: normal;
+text-align: center;
+color: #373b54;
+margin-top: 20px;
+}
+
+.bookNow {
+padding: 38px;
+border-radius: 6px;
+box-shadow: 0 1px 6px 0 rgba(0, 0, 0, 0.16);
+height: 136px;
+}
+
+.bookNowDiv {
+padding: 54px 8%;
+}
+
+/* .bookNowDiv::before {
+position: absolute;
+content: url(../img/marriagePic.png);
+left: 0;
+top: -55%;
+} */
+
+.bookNow h4 {
+font-family: "Poppins", sans-serif;
+font-size: 21px;
+font-weight: 500;
+font-stretch: normal;
+font-style: normal;
+line-height: normal;
+letter-spacing: normal;
+text-align: left;
+color: #050922;
+margin-bottom: 10px;
+width: 100%;
+}
+
+.bookNow p {
+font-family: "Poppins", sans-serif;
+font-size: 14px;
+font-weight: normal;
+font-stretch: normal;
+font-style: normal;
+line-height: normal;
+letter-spacing: normal;
+text-align: left;
+color: #050922;
+width: 100%;
+}
+
+.bookNowBtn {
+font-family: "Poppins", sans-serif;
+font-size: 16px;
+font-weight: 500;
+font-stretch: normal;
+font-style: normal;
+line-height: normal;
+letter-spacing: normal;
+text-align: center;
+color: #fff;
+padding: 10px;
+border-radius: 3px;
+box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+background-color: #d7a844;
+width: 155px;
+border: none;
+}
+
+.bookNowImgs img {
+object-fit: cover;
+}
+
+.footerContactInf {
+margin: 54px 0px 0px;
+}
+
+.individualPromiseDiv .individualPromiseImg {
+text-align: center;
+}
+
+.individualPromiseDiv .individualPromiseText {
+ text-align: center;
+}
+
+.additionalImagesPosition img {
+  object-position: top;
+}
+
+.carouselItem1 .getStarted:hover, .weddingPhotography .getStarted:hover, .digitalServicesBtn .getStarted:hover, .bookNowBtn:hover {
+  background-color: #c4943d;
+}
+
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 999;
+  padding-top: 60px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0,0,0,0.8);
+}
+
+#imageModal .close {
+position: absolute;
+top: 15px;
+right: 35px;
+color: #d7a844;
+font-size: 40px;
+font-weight: normal;
+cursor: pointer;
+}
+
+.modal-content {
+margin: auto;
+display: block;
+width: 80%;
+max-width: 700px;
+transition: transform 0.3s ease-in-out;
+}
+
+#imageModal .prev, #imageModal .next {
+cursor: pointer;
+position: absolute;
+top: 50%;
+width: auto;
+padding: 16px;
+color: #d7a844;
+font-weight: normal;
+font-size: 30px;
+transition: 0.3s;
+user-select: none;
+text-decoration: none;
+}
+
+.prev {
+left: 0;
+}
+
+.next {
+right: 0;
+}
+
+.additionalImagesDiv img {
+cursor: pointer;
+}
+.carouselItem1 p{
+  max-width:642px;
+  width:100%;
+}
+
+.specializationIndividualImg > div {
+  position: relative;
+  width: 100%;
+}
+
+.specializationIndividualImg > div::before {
+  content: "";
+  display: block;
+  padding-top: 56.25%; /* 16:9 aspect ratio */
+  border-radius: 3px;
+  box-shadow: 0 0 12px 0 rgba(0, 0, 0, 0.16);
+}
+
+.specializationIndividualImgDiv1,
+.specializationIndividualImgDiv2,
+.specializationIndividualImgDiv3,
+.specializationIndividualImgDiv4,
+.specializationIndividualImgDiv5,
+.specializationIndividualImgDiv6 {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border: solid 2px #f5f5f5;
+  cursor: pointer;
+  border-radius: 3px;
+  box-shadow: 0 0 12px 0 rgba(0, 0, 0, 0.16);
+}
+.specializationIndividualImgDiv1 {
+  background-image: url(../img/danie-franco-mYhYNpwVTMY-unsplash.jpeg);
+}
+.specializationIndividualImgDiv2 {
+  background-image: url(../img/liquid-artiste-SUwPo4ErQCc-unsplash.jpeg);
+}
+.specializationIndividualImgDiv3 {
+  background-image: url(../img/preweddingPhoto.jpeg);
+}
+.specializationIndividualImgDiv4 {
+  background-image: url(../img/bridalPhoto.jpeg);
+}
+.specializationIndividualImgDiv5{
+  background-image: url(../img/baby.jpeg);
+}
+.specializationIndividualImgDiv6{
+  background-image: url(../img/candid.jpeg);
+}
+
+@media (max-width: 768.68px) {
+/* .MomentCaptureMainDiv {
+  background-image: url(../img/photographyTopSectionMobile.jpg);
+  background-position: right;
+} */
+
+.additionalImagesDiv {
+  margin-top: 21px;
+}
+
+.hide-mobile-design {
+  display: none;
+}
+
+.specializationImgs {
+  margin-bottom: 20px;
+}
+
+.specializationIndividualImg {
+  margin-bottom: 20px;
+}
+
+.specializationIndividualImgDiv {
+  position: relative;
+}
+
+.specializationIndividualImgDiv::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.4);
+  height: 300px;
+}
+
+.specializationIndividualImgDiv p {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  color: #fff;
+  z-index: 2;
+}
+
+.individualPromiseDiv {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+}
+
+.individualPromiseDiv.margBott {
+  margin: 44px 0px;
+}
+
+.individualPromiseDiv p {
+  margin-left: 10%;
+  margin-top: 0px;
+  text-align: left;
+  font-size: 17px;
+} 
+
+.whatWePromiseImgDiv {
+  padding: 0px 0px;
+}
+
+.bookNow {
+flex-direction: column;
+height: 100% !important;
+padding: 38px 20px;
+}
+
+.bookNowBtn {
+margin-top: 40px;
+}
+
+.bookNowImgs img {
+min-height: 400px;
+}
+
+.carouselItem1 h2 {
+font-size: 30px;
+}
+
+.carouselItem1 p {
+font-size: 14px;
+}
+
+.weddingPhotography h2, .digitalServices h2, .VivahaLiveSpecialization h2 {
+font-size: 30px;
+padding: 0px 30px;
+}
+
+.whatWePromiseContents h2 {
+font-size: 30px;
+}
+
+.weddingPhotography {
+margin-top: 25px;
+}
+
+.weddingPhotography p, .digitalServices p, .VivahaLiveSpecialization .weCapture, .whatWePromiseContents .weCapture {
+font-size: 14px;
+padding: 0px 30px;
+}
+
+.showcaseRow {
+padding: 0px 10px;
+}
+
+.photoGalleryDivOneText h3 {
+font-size: 24px;
+}
+
+.photoGalleryDivOneText h4 {
+font-size: 17px;
+}
+
+.digitalServicesCardsDiv {
+padding: 0px 10px;
+}
+
+.specializationImgs p {font-size: 24px;margin-bottom: 15px;}
+
+.specializationImgs {
+padding: 0px 10px;
+}
+
+.individualPromiseDiv .individualPromiseImg {
+text-align: end;
+}
+
+.individualPromiseDiv .individualPromiseText {
+text-align: start;
+}
+
+.bookNow h4 {
+text-align: center;
+margin-top: 20px;
+}
+
+.bookNow p {
+text-align: center;
+}
+
+.footerContactInf h3 {
+font-size: 21px;
+}
+
+.footerContactInf {
+padding-left: 20px;
+padding-right: 20px;
+}
+
+.whatWePromiseMainDiv { 
+padding: 50px 30px;
+}
+
+.footerWatsappNumber {
+font-size: 14px;
+}
+
+.canvasAlbum h4, .expert h4, .service h4, .equipments h4 {
+font-size: 17px;
+}
+
+.specializationImgs img {
+height: 300px;
+}
+
+.specializationImgPosition img {
+object-position: top;
+}
+
+}
+@media(max-width:576.98px){
+  .photoGalleryDivOneText h4{
+    color:#d7a844;
+  }
+  .getStartedRadius{
+    border-radius: 21.5px!important;
+  }
+  .carouselItem1 p{
+    margin-bottom:0;
+  }
+  .specializationImgs img,.specializationIndividualImgDiv::after{
+    height:136px;
+  }
+}
+
+@media (min-width: 0px) and (max-width: 575px) {
+  .photoGalleryMainDivOne, .additionalImagesMainDiv, .specializationIndividualImg, .individualPromiseDiv, .marriageBookDiv, .marrgiageDiv{
+    flex: 0 0 auto;
+    width: 100%;
+  }
+
+  .individualPromiseDiv .individualPromiseImg {
+    flex: 0 0 auto;
+    width: 35%;
+  }
+
+  .individualPromiseDiv .individualPromiseText {
+    flex: 0 0 auto;
+    width: 65%;
+  }
+
+  .marriageImgDiv, .marriageContentDiv {
+    flex: 0 0 auto;
+    width: 100%;
+  }
+
+  .showcaseRow:before {
+    content: "";
+  }
+
+  .carousel-control-prev, .carousel-control-next {
+    opacity: 0 !important;
+  }
+
+  .digitalServicesCardsDiv {
+    display: none;
+  }
+
+  .digitalServicesCarousel {
+    display: block;
+  }
+
+  #carouselExampleIndicator  .carousel-indicators {
+    bottom: -50px;
+  }
+
+  .digitalServicesBtn .getStarted {
+    margin-top: 70px;
+    margin-right: 0px;
+  }
+
+  .service, .equipments {
+    margin-top: 0px !important;
+  }    
+
+  .VivahaLiveSpecialization:before {
+    content: "";
+  }
+
+  .carouselBtnsDiv {
+    flex-direction: column;
+  }
+
+  .carouselBtnsDiv .signUp {
+    margin-top: 20px;
+  }
+
+  .carouselBtnsDiv .getStarted {
+    margin-right: 0px;
+  }
+
+  .MomentCaptureMainDiv .carouselSession {
+    min-height: 700px;
+  }
+
+  .MomentCaptureMainDiv {
+    min-height: 870px;
+  }
+
+  .carousel-item .carouselItemDiv, .introduction {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
+  .introduction {
+    margin-bottom: 45px;
+  }
+
+  .introduction h5, .introduction p {
+    font-size: 14px;
+  }
+
+  .canvasAlbum h4, .expert h4, .service h4, .equipments h4 {
+    font-size: 17px;
+  }
+
+  .specializationImgs p {
+    font-size: 20px;
+  }
+
+  .whatWePromiseImgDivs { 
+        padding: 30px 0px;
+  }
+
+}
+
+@media (min-width: 0px) and (max-width: 360px) {
+.individualPromiseDiv p {
+  font-size: 15px;
+}
+}
+
+@media (min-width: 0px) and (max-width: 991px) {
+.service, .equipments {
+  margin-top: 20px;
+}
+
+.digitalServicesBtn .getStarted {
+  margin-top: 70px;
+}
+
+.whatWePromiseImgDiv {
+  padding: 0px 5%;
+}
+
+.bookNow h4 {
+font-size: 17px;
+}
+}
+
+@media (min-width: 991px) and (max-width: 1199px) {  
+  .service, .equipments {
+    margin-top: 20px;
+  }
+}
+
+@media (min-width: 991px) and (max-width: 1440px) {  
+
+.whatWePromiseImgDiv {
+  padding: 0px 5%;
+}
+
+}
+
+@media (min-width: 768px) and (max-width: 1440px) { 
+  .specializationImgs p {
+    font-size: 20px;
+  }
+}
+
+@media (min-width: 1440px) and (max-width: 1920px) {
+.specializationImgs img {
+  height: 300px;
+}
+}
+
+@media (min-width: 1920px) and (max-width: 2560px) {
+.specializationImgs img {
+  height: 380px;
+}
+}

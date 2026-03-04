@@ -1,0 +1,22 @@
+<svg id="timer" xmlns="http://www.w3.org/2000/svg" width="72" height="72" viewBox="0 0 72 72">
+  <defs>
+    <style>
+      .cls-1, .cls-2 {
+        fill: none;
+      }
+
+      .cls-1 {
+        stroke: #af8c3c;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-width: 2px;
+      }
+
+      .cls-2 {
+        opacity: 0;
+      }
+    </style>
+  </defs>
+  <path id="Vector" class="cls-1" d="M29.246,0H9.806c-11.28,0-12.15,10.14-6.06,15.66l31.56,28.68C41.4,49.86,40.526,60,29.246,60H9.806c-11.28,0-12.15-10.14-6.06-15.66l31.56-28.68C41.4,10.14,40.526,0,29.246,0Z" transform="translate(16.474 6)"/>
+  <path id="Vector-2" data-name="Vector" class="cls-2" d="M0,0H72V72H0Z"/>
+</svg>

@@ -1,0 +1,343 @@
+/* .section1{
+    height:100vh;
+} */
+.contactUs{
+    position:relative;
+    background-image: url("../img/contactHaldi.png");
+    background-position: center;
+    background-size: cover;
+    width:100%;
+    height:50vh;
+    z-index:-1;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+}
+.contactHaldiTint{
+    background: rgb(0 0 0 / 65%);
+}
+.contactUs p{
+    font-family: "Abhaya Libre", serif;
+    font-size: 50px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #fff;
+  border-radius: 3px;
+  box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+  border: solid 1px #fff;
+  padding:0 58px;
+}
+.getInTouch{
+    padding:46px;
+/* height:50vh; */
+}
+.getInTouch h2{
+    font-family: "Abhaya Libre", serif;
+    font-size: 42px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #373b54;
+    margin-bottom:44px;
+}
+.getInTouchLinkRow .socialTabs{
+    padding:20px 50px;
+}
+.getInTouchLinkRow .socialTabs:not(:last-child) {
+    border-right:1.5px solid #dcc59d
+
+}
+.socialTabs svg{
+    margin-bottom: 26px;;
+}
+.socialTabs a{
+    text-decoration: none;
+
+}
+.socialTabs .phone{
+    font-family: "Poppins", sans-serif;
+    font-size: 21px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #d7a844;
+    margin-bottom:26px;
+  margin-top:26px;
+}
+.socialTabs .cellNumber{
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #373b54;
+}
+.section2 h4{
+    font-family: "Poppins", sans-serif;
+    font-size: 17px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #373b54;
+    margin-bottom:30px;
+    text-align: center;
+}
+.section2{
+    padding:45px 15px 59px;
+    width:719px;
+max-width:100%;
+margin-left:auto;
+margin-right: auto;
+padding-top:0;
+}
+.section2 p{
+    font-family: "Poppins", sans-serif;
+    font-size: 17px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #373b54;
+    margin-bottom:52px;
+    text-align: center;
+}
+.contactInputQuestions input,.contactInputQuestions textarea{
+    font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #707070;
+  padding:13px 17px;
+  border-radius: 3px;
+  border: solid 1px #d7a844;
+}
+
+.form-control.is-invalid, .was-validated .form-control:invalid{
+    border-color:#e24c26!important;
+}
+.invalid-feedback{
+    color:#e24c26!important;
+}
+
+.contactInputQuestions textarea{
+    margin-bottom:30px;
+}
+.contactInputQuestions button:hover,.contactInputQuestions button:focus,.contactInputQuestions button:active{
+    background-color: #c4943d!important;
+    border-color: #c4943d!important;
+    box-shadow: none!important;
+}
+.contactInputQuestions .form-group{
+    margin-bottom:15px;
+
+}
+.contactInputQuestions .invalid-feedback{
+    position: relative!important;
+}
+.contactInputQuestions button{
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #fff;
+    border-radius: 3px;
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+    background-color: #d7a844;
+    border-color:#d7a844;
+    padding:10px 28px;
+    margin-left: auto;
+    margin-right: auto;
+    display:flex;
+    justify-content: center;
+   
+}
+/* .socialTabs a:hover .phone{
+    color: #212529;
+}
+
+.socialTabs a:hover svg path {
+    stroke: #212529; 
+}
+.mail-link:hover svg path {
+    fill: #212529; 
+}
+.phone-link:hover svg path,
+.phone-link:hover svg circle {
+    fill: #212529;
+} */
+.phoneContents a:hover,.phoneContents a:focus{
+    color: #d7a844;
+}
+.adress:hover,.adress:focus{
+    color: #373b54!important;
+}
+.section3{
+    border-radius: 12px;
+}
+.section4{
+    padding:58px 0 60px;
+    box-shadow: 0 6px 6px -6px rgba(0, 0, 0, 0.16);
+    margin-bottom:5px;
+}
+.headerNavbar.sticky{
+    background-image: none;
+}
+.headerNavbar{
+    background-image: linear-gradient(to bottom, #000, rgba(0, 0, 0, 0));
+}
+.section4 h2{
+    font-family: "Abhaya Libre", serif;
+    font-size: 27px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #373b54;
+    margin-bottom:15px;
+}
+.section4 p{
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #050922;
+    margin-bottom:53px;
+}
+.section4 svg{
+    fill:#d7a844
+}
+/* On hover, change the background fill color */
+.socialLinkContact a:hover svg #background {
+    fill: #212529; /* New hover color */
+}
+.socialLinkContact a:not(:last-child){
+    text-decoration:none;
+    margin-right: 30px;
+}
+.facebook-icon:hover svg path,.twitter-icon:hover svg path ,.instagram-icon:hover svg #Path_45824  {
+    fill: #212529;
+}
+.contactInputQuestions input:hover, .contactInputQuestions textarea:hover,.contactInputQuestions input:focus, .contactInputQuestions textarea:focus{
+    /* border-color: #e24c26 ; */
+    box-shadow:none!important;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+#btnSubmit{
+    text-transform: lowercase;
+}
+
+@media(min-width:1200px){
+    /* .section1{
+        height:100vh;
+    } */
+    .getInTouch{
+    /* height:50vh; */
+    width: 80%;
+    margin-left:auto;
+    margin-right:auto;
+    }  
+}
+@media(max-width:991.98px){
+    .getInTouchLinkRow .socialTabs{
+        padding:20px;
+    }
+    .contactUs p{
+        margin-top:15vh;
+    }
+}
+@media(max-width:767.98px){
+   
+    .getInTouch{
+        width:100%;
+          padding:15px;
+        }
+        .socialLinkContact a:not(:last-child){
+            margin-right: 10px;
+        }
+        .socialTabs{
+            padding:15px;
+        }
+       
+        
+}
+@media(min-width:575.98px){
+    .socialTabs span{
+        height:54px;
+    }
+}
+@media(max-width:575.98px){
+    .socialTabs span{
+        width:80px;
+        max-width:100%;
+        margin-right:20px;
+    }
+    .socialTabs svg{
+        margin-bottom:0;
+    }
+    .socialTabs .phone{
+        margin-top:0;
+    }
+    .phoneContents{
+        width:calc(100% - 80px);
+    }
+    .section3{
+        margin-top:20px;
+    }
+    .section4{
+        padding:20px 15px;
+    }
+    .getInTouchLinkRow .socialTabs:not(:last-child){
+        border-right:0;
+    }
+    .getInTouch h2,.contactUs p{
+        font-size:30px;
+    }
+    
+        .getInTouch h2,.socialTabs svg,.socialTabs .phone,
+        .section2 h4,.section2 p,.contactInputQuestions textarea,.section4 p
+        {
+          margin-bottom: 15px;
+        }
+        .section2{
+          padding:15px;
+        }
+        .getInTouchLinkRow .socialTabs{
+          padding:15px;
+      }
+}

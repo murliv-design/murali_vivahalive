@@ -1,0 +1,694 @@
+
+body {
+  font-family: 'Poppins', 'sans-serif';
+  word-break: break-word;
+  font-weight: normal;
+  max-width:100vw;
+  width:100%;
+  max-height:100vh;
+  height:100%;
+  
+}
+.mega-dropdown {
+  position: static !important;
+}
+.mega-dropdown-menu {
+    padding: 20px 0px;
+    width: 100%;
+    box-shadow: none;
+    -webkit-box-shadow: none;
+}
+.mega-dropdown-menu > li > ul {
+  padding: 0;
+  margin: 0;
+}
+.mega-dropdown-menu > li > ul > li {
+  list-style: none;
+}
+.mega-dropdown-menu > li > ul > li > a {
+  display: block;
+  color: #222;
+  padding: 3px 5px;
+}
+.mega-dropdown-menu > li ul > li > a:hover,
+.mega-dropdown-menu > li ul > li > a:focus {
+  text-decoration: none;
+}
+.header-section-nav li:not(:last-child) a.headerLink:hover,.header-section-nav li:not(:last-child) a.headerLink:focus,
+.header-section-nav ul:not(.weddingLiveDropdown) li:not(:last-child) a.active
+{
+color:#d7a844;
+}
+.header-section-nav a.headerLink{
+  position:relative;
+}
+.header-section-nav li:not(:last-child) a.headerLink:hover::before{
+  width:100%;
+  border-radius:2px;
+  height:2px;
+  background-color:transparent;
+  left:0;
+  bottom:-5px;
+  content:"";
+  position:absolute;
+}
+.header-section-nav li:not(:last-child) a.headerLink:hover::before {
+  background-color:#d7a844; 
+}
+.mega-dropdown-menu .dropdown-header {
+  font-size: 18px;
+  color: #ff3546;
+  padding: 5px 60px 5px 5px;
+  line-height: 30px;
+}
+
+.carousel-control {
+  width: 30px;
+  height: 30px;
+  top: -35px;
+
+}
+.left.carousel-control {
+  right: 30px;
+  left: inherit;
+}
+.carousel-control .glyphicon-chevron-left, 
+.carousel-control .glyphicon-chevron-right {
+  font-size: 12px;
+  background-color: #fff;
+  line-height: 30px;
+  text-shadow: none;
+  color: #333;
+  border: 1px solid #ddd;
+}
+.headerNavbar {
+  padding: 15px 25px;
+  /* max-height:15vh;
+  height:100%; */
+}
+.navbar{
+  box-shadow:none;
+  padding: 0px;
+}
+.navbar-brand {
+    padding: 0px;
+}
+.header-section-nav .nav-link{
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: right;
+  color: #fff;
+  padding: 5px 0px 5px!important;
+  margin:0 13px;
+}
+.header-section-nav .nav-item:last-child .nav-link{
+ padding:17px 13px!important;
+}
+.whatsapp{
+  margin-right:11px;
+}
+.mega-wedding-live{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; /* Ensures content is centered vertically and horizontally */
+  margin: 0 auto;
+  width: 100%;
+}
+.mega-wedding-live a{
+text-decoration: none;
+}
+.mega-wedding-live a{
+  font-family: "Abhaya Libre", serif;
+  font-size: 24px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #373b54;
+}
+.bacakgroundImg{
+  /* background-image: url(../img/home_background.png); */
+  /* background-image: url(../img/wedding-cermoney.jpg); */
+  width: 100%;
+  height: auto;
+  background-size: cover;
+  background-position: top;
+  z-index: 1; /* Higher z-index value */
+  position: relative;
+  top: 0;
+  left: 0;
+  background: rgb(0 0 0 / 30%);
+  height: 100vh;
+    position: relative;
+}
+.headerNavbar {
+  position: absolute; 
+  z-index: 10; 
+}
+
+/* footer */
+
+.footerContactInf{
+  padding:46px 0 35px;
+  background-color: #fff6e3;
+  text-align: center;
+}
+.footerContactInf h3{
+  font-family: "Abhaya Libre", serif;
+  font-size: 27px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #373b54;
+  margin-bottom:17px;
+}
+.loveToAssist{
+  font-family: "Poppins", sans-serif;
+  font-size: 13px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #373b54;
+  margin-bottom:22px;
+}
+.footerCall,.footerWatsapp{
+  margin-right:21px;
+}
+.footerNum{
+  font-family: "Poppins", sans-serif;
+  font-size: 21px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #050922;
+}
+.footerContentDeatails{
+  padding:80px 80px 0;
+  
+}
+.footerContentDeatails a:hover{
+  color:  #c4943d;
+}
+.footerReserved a:hover{
+  color:  #c4943d;
+}
+.footerContentDeatails h4{
+  font-family: "Poppins", sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  /* text-align: left; */
+  color: #9e9e9e;
+  margin-bottom:16px;
+  margin-top:20px;
+}
+.footerContentDeatails h3{
+  font-family: "Poppins", sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #050922;
+  margin-bottom:0;
+  height:63px;
+  display:flex;
+  align-items:center;
+}
+.footerContentDeatails a{
+  font-family: "Poppins", sans-serif;
+  font-size: 15px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #9e9e9e;
+  text-decoration: none;
+}
+.footerText{
+  padding:0 80px 37px;
+}
+
+.footertext {
+  flex: 1; 
+  padding:0px; 
+  box-sizing: border-box; 
+}
+.footerContentDetails {
+  display: flex;
+  justify-content: space-between; 
+  padding:80px;
+}
+.footerSignUp{
+  font-family: "Poppins", sans-serif;
+  font-size: 15px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #9e9e9e;
+}
+.rightArrow{
+  margin-left:9px;
+}
+.footer-links li{
+  list-style:none;
+  margin-right:30px;
+}
+.footer-links li a,.footer-links li{
+  text-decoration:none;
+  font-family: "Poppins", sans-serif;
+  font-size: 15px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #9e9e9e;
+}
+.socialMedia{
+  font-family: "Poppins", sans-serif;
+  font-size: 15px;
+  padding-right: 50px;
+
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align:left;
+  color: #9e9e9e;
+}
+.socialMediaone{
+  font-family: "Poppins", sans-serif;
+  font-size: 15px;
+
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align:left;
+  color: #9e9e9e;
+}
+.footer-section{
+  background-image: url(../img/images.png);
+  background-size: cover;
+  background-position: bottom;
+}
+
+.footerSocialMedia{
+  padding:10px;
+}
+
+#scroll {
+  position: fixed;
+  right: 10px;
+  bottom: 10px;
+  cursor: pointer;
+  width: 40px;
+  height: 40px;
+  /* background-color: #131313; */
+  /* text-indent: -9999px; */
+  display: none;
+  -webkit-border-radius: 60px;
+  -moz-border-radius: 60px;
+  /* border-radius: 60px; */
+  color: #fff;
+  z-index: 7;
+  /* border: solid 1px #3989f9; */
+  padding: 5px;
+  /* box-shadow: 0 0 3px 0 rgba(57, 137, 249, 0.62); */
+}
+
+#scroll svg {
+  background-color: #d7a844;
+  border-radius: 60px;
+  display: flex;
+  align-items: center;
+  border: solid 1px #d7a844;
+  box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+}
+.socialLink a{
+  margin-right:10px;
+  text-decoration: none;
+}
+.footerMobileSection h4{
+  font-family: "Poppins", sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  /* text-align: left; */
+  color: #9e9e9e;
+  margin-bottom:16px;
+  margin-top:20px;
+}
+.footerMobileSection h3{
+  font-family: "Poppins", sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #050922;
+  margin-bottom:0;
+  height:63px;
+  display:flex;
+  align-items:center;
+}
+/* home to style */
+
+.headerNavbar.sticky{
+  position:fixed!important;
+  top:0;
+  z-index:999;
+  background-color:#fff;
+  --mdb-navbar-box-shadow: 0 4px 12px 0 rgb(0 0 0 / 18%), 0 2px 4px rgb(0 0 0 / 26%);
+  --mdb-navbar-padding-top: 0.5625rem;
+  --mdb-navbar-brand-img-margin-right: 0.25rem;
+  box-shadow: var(--mdb-navbar-box-shadow);
+  box-shadow: var(--mdb-navbar-box-shadow);
+}
+
+.headerNavbar ul.navbar-nav li.nav-item {
+    display: flex;
+    align-items: center;
+}
+.headerNavbar.sticky .nav-item a{
+  color: #050922;
+}
+
+.headerNavbar .nav-item:last-child .nav-link:hover {
+ color:#fff;
+}
+.headerActive{
+  background:#fff;
+}
+.rightArrowStarted:hover .rightArrow svg path ,.socialLink a:hover svg path,.socialLink a:hover svg circle{
+  fill: #d7a844;
+}#logo_vivahalive_svg{
+  fill:#fff;
+}
+.weddingLiveDropdown a.active,.weddingLiveDropdown a:hover,.weddingLiveDropdown a:focus{
+  background-color: #d7a844;
+  color:#fff!important
+}
+.weddingLiveDropdown a:hover{
+  color:#d7a844;
+}
+ .weddingLiveDropdown li:last-child a{
+  margin-bottom:0;
+}
+.weddingLiveDropdown{
+width:auto!important;
+}
+.weddingLiveDropdown a{
+  font-family: "Poppins", sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #373b54;
+  text-decoration:none;
+  padding:15px;
+  white-space: nowrap;
+  border-radius:3px;
+}
+
+
+/* side-menu */
+.sideMenu {
+  position: fixed;
+  width: 0%;
+  height: calc(100% - 74.59px);
+  top: 74.59px;
+  right: 0px;
+  z-index: 790;
+  overflow-x: hidden;
+  background-color: transparent;
+  text-align: right;
+}
+.sideMenu.w-100{
+  background-color: #fff;
+}
+.sideMenuLink{
+  font-family: "Abhaya Libre", serif;
+  font-size: 24px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #373b54!important;
+  padding:12px 10px!important;
+}
+.sideMenuLink:hover,.sideMenuLink:focus,.sideMenuLink:active{
+  color:#d7a844!important;
+}
+.sideMenuwhatsapp{
+  width: 30px;
+  max-width: 100%;
+  height: 100%;
+  margin:0;
+}
+.menuOpen{
+  width:33px;
+}
+.navbar-toggler:focus{
+  box-shadow: none!important;
+}
+.footerMobileLink a:focus{
+  color:#d7a844
+}
+.sideMenuLink.active{
+  color:#d7a844!important;
+}
+.footerSocialParent{
+  margin-bottom:23px;
+}
+.recommend h3{
+  white-space:nowrap;
+}
+.sideDropdown{
+  top:15%;
+  left:15px;
+}
+.footerNum a,.footerNum a:hover,.footerNum a:focus{
+  color: #050922;
+}
+
+.footerMobileSection h3{
+  font-family: "Poppins", sans-serif;  
+  font-size: 15px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #373b54;
+  margin-bottom:20px;
+}
+.footerMobileLink a{
+  font-family: "Poppins", sans-serif;  
+  font-size: 15px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #9e9e9e;
+  text-decoration:none;
+  margin-bottom:21px;
+}
+.footerMobileLink{
+  margin-bottom:46px;
+}
+.footerMobileAdress p{
+  font-family: "Poppins", sans-serif;  
+  font-size: 13px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  /* text-align: left; */
+  color: #050922;
+  margin-bottom:23px;
+  word-break:break-word;
+}
+.footerMobileSection .socialMedia{
+  font-family: "Poppins", sans-serif;  
+  font-size: 15px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+}
+.footerMobileSection  .getWeddingApp{
+margin-bottom:14px;
+}
+.footerMobileSection  .getWeddingApp h3{
+  color: #050922;
+  font-size:13px;
+}
+.footerMobileSection .allRights{
+  font-family: "Poppins", sans-serif;  
+  font-size: 15px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color:#9e9e9e;
+}
+.footerMobileSection a{
+  font-family: "Poppins", sans-serif;  
+  font-size: 15px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #373b54;
+  text-decoration:none;
+}
+.footerContactInf a{
+  text-decoration: none;
+    }
+
+  /* mobile footer */
+.footerMobileSection{
+  padding:40px 33px;
+}
+#scroll svg:hover {
+  background-color: #fff;
+}
+#scroll:hover svg {
+  fill: #c4943d;
+}
+
+.slide-in {
+  display: inline-block;
+  color: white;
+  text-decoration: none;
+  position: relative;
+  z-index: 1;
+  overflow: hidden; 
+  padding:13px;
+ 
+}
+
+
+.slide-in::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 3px;
+  height: 100%;
+  background-color: green;
+  z-index: -1;
+  transition: width 0.6s ease; 
+  border-radius:28px;
+}
+
+/* On hover, slide the background in */
+.slide-in:hover::before {
+  width: 100%; 
+  border-radius: 28px;
+}
+@media(max-width:1250px){
+  .footerContentDeatails h3,.vivahaliveSvg{
+    height:94px;
+   align-items: center;
+  }
+  .footerContentDeatails h4{
+    margin-top:0;
+  }
+}
+@media(max-width:991.98px){
+  .headerNavbar{
+    background:#fff;
+  }
+  #logo_vivahalive_svg{
+    fill:#050922!important;
+  }
+  .sideMenuProfiles{
+    margin-top:32px;
+  }
+}
+@media (min-width: 991.98px) {
+  .sideMenu {
+      display: none;
+  }
+}
+
+@media(max-width:575.98px){
+  .headerNavbar{
+    padding:16px!important;
+  }
+}
+@media(max-width:425px){
+  .displayHours.selected h4:after{
+    top:2px;
+  }
+}
+@media(max-width:425px) and (min-width:376.98px){
+  .displayHours.selected h4:after{
+    top:6px;
+  }
+}
+@media(max-width:991.98px){
+  .footerContentDeatails {
+    grid-template-columns: repeat(3, 1fr)!important;
+}
+.footerReserved{
+  width:100%!important;
+}
+}
+
+
+
+

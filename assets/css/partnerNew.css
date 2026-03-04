@@ -1,0 +1,738 @@
+.eventPlannerMainDiv::before {
+  content: url(../img/partnerObj.png);
+  right: 0;
+  position: absolute;
+  top: 20px;
+  /* opacity: 0.7; */
+}
+
+.eventPlannerMainDiv {
+padding-left: 55px;
+}
+
+.eventPlannerMainDiv h4 {
+font-size: 21px;
+font-weight: normal;
+font-stretch: normal;
+font-style: normal;
+line-height: normal;
+letter-spacing: normal;
+text-align: left;
+color: #af8c3c;
+font-family: "Poppins", sans-serif;
+margin-bottom: 30px;
+}
+
+.eventPlannerMainDiv h2 {
+font-family: "Abhaya Libre", serif;
+font-size: 50px;
+font-weight: bold;
+font-stretch: normal;
+font-style: normal;
+line-height: normal;
+letter-spacing: normal;
+text-align: left;
+color: #373b54;
+margin-bottom: 24px;
+}
+
+.eventPlannerMainDiv p {
+font-family: "Poppins", sans-serif;
+font-size: 18px;
+font-weight: 300;
+font-stretch: normal;
+font-style: normal;
+line-height: normal;
+letter-spacing: normal;
+text-align: left;
+color: #373b54;
+margin-bottom: 38px;
+}
+
+.eventPlannerMainDiv .getStarted, 
+.offerDivContent .getStarted, .consultation, .viewAllVlog, #btn-close {
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #fff;
+  padding: 10px;
+  border-radius: 3px;
+  box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+  background-color: #af8c3c;
+  text-decoration: none;
+  width: 155px;  
+}
+
+#btn-close {
+  width: auto;
+  margin-right: 0px;
+}
+
+.consultation:hover , .viewAllVlog:hover, #btn-close:hover  {
+  color: #fff;
+  background-color: #c4943d;
+}
+
+.playDemo, .cellCelebrate {
+color: #fc2159;
+background: transparent;
+border: none;
+text-decoration: none;
+padding: 20px 0px;
+cursor: pointer;
+}
+
+.playDemo:hover, .cellCelebrate:hover {
+  color: #fc2159;
+}
+
+.playSpam, .callSpam {
+margin-right: 8px;
+}
+
+.eventPlannerLapDiv {
+  text-align: right;
+  z-index: 1;
+  margin-top: 180px !important;
+}
+
+/* .eventPlannerLapDiv {
+position: absolute;
+right: 0;
+background-repeat: no-repeat;
+background-size: contain;
+margin-top: 180px !important;
+} */
+
+.eventPlannerLapDiv img {
+  width: 90%;
+}
+
+.eventPlannerContentDiv {
+margin-top: 180px !important;
+}
+
+.offerDivContent h4 {
+font-family: "Poppins", sans-serif;
+font-size: 21px;
+font-weight: normal;
+font-stretch: normal;
+font-style: normal;
+line-height: normal;
+letter-spacing: normal;
+text-align: left;
+color: #af8c3c;
+margin-bottom: 10px;
+}
+
+.offerDivContent h2 {
+font-family: "Abhaya Libre", serif;
+font-size: 50px;
+font-weight: bold;
+font-stretch: normal;
+font-style: normal;
+line-height: normal;
+letter-spacing: normal;
+text-align: left;
+color: #373b54;
+margin-bottom: 15px;
+}
+
+.offerDivContent .loremIpsum1 {
+font-family: "Poppins", sans-serif;
+font-size: 15px;
+font-weight: 300;
+font-stretch: normal;
+font-style: normal;
+line-height: normal;
+letter-spacing: normal;
+text-align: left;
+color: #373b54;
+margin-bottom: 31px;
+}
+
+.loremIpsum1.selected {
+  border-left: 3px solid #af8c3c;
+  background-color: #fcfaf6;
+  padding: 10px 20px;
+}
+
+.offerDivContent .loremIpsum2 {
+font-family: "Poppins", sans-serif;
+font-size: 18px;
+font-weight: 300;
+font-stretch: normal;
+font-style: normal;
+line-height: normal;
+letter-spacing: normal;
+text-align: left;
+color: #373b54;
+margin-bottom: 46px;
+}
+
+.offerPhoneDiv img {
+z-index: 1;
+}
+
+.bestyEventMainDiv {
+background-image: url(../img/BG-4.png);
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+}
+
+.bestyEventMainDiv h4 {
+font-family: "Poppins", sans-serif;
+font-size: 21px;
+font-weight: normal;
+font-stretch: normal;
+font-style: normal;
+line-height: normal;
+letter-spacing: normal;
+text-align: left;
+color: #d7a844;
+}
+
+.bestyEventMainDiv h2 {
+font-family: "Abhaya Libre", serif;
+font-size: 48px;
+font-weight: bold;
+font-stretch: normal;
+font-style: normal;
+line-height: normal;
+letter-spacing: normal;
+text-align: left;
+color: #fff;
+margin-bottom: 10px;
+}
+
+.bestyEventMainDiv:after {
+position: absolute;
+content: url(../img/telecom_girl.png);
+right: 20px;
+bottom: -6px;
+}
+
+.bestyEventDiv {
+position: relative;
+margin-top: 100px;
+}
+
+.bestyEventContents {
+padding-left: 140px;
+padding-right: 140px;
+height: 350px;
+display: flex;
+align-items: start;
+justify-content: center;
+flex-direction: column;
+}
+
+.articleNews h4 {
+font-family: "Poppins", sans-serif;
+font-size: 21px;
+font-weight: normal;
+font-stretch: normal;
+font-style: normal;
+line-height: normal;
+letter-spacing: normal;
+text-align: left;
+color: #af8c3c;
+margin-bottom: 20px;
+}
+
+.articleNews h3 {
+font-family: "Abhaya Libre", serif;
+font-size: 44px;
+font-weight: bold;
+font-stretch: normal;
+font-style: normal;
+line-height: normal;
+letter-spacing: normal;
+text-align: left;
+color: #050922;
+margin-bottom: 65px;
+}
+
+.planSuccessfulDiv {
+text-decoration: none;
+box-shadow: 1px 1px 6px 0 rgba(0, 0, 0, 0.16);
+background-color: #fff;
+border-bottom: 3px solid #af8c3c;
+height: 100%;
+}
+
+.planSuccessful, .commonMistake, .eventPlan {
+text-decoration: none;
+}
+
+.planSuccessful .successImg, .mistakeImg, .concertImg {
+padding: 12px;
+}
+
+.planSuccessful h3, .commonMistake h3, .eventPlan h3 {
+padding: 0 23px;
+margin-top: 9px;
+font-family: "Abhaya Libre", serif;
+font-size: 34px;
+font-weight: bold;
+font-stretch: normal;
+font-style: normal;
+line-height: normal;
+letter-spacing: normal;
+text-align: center;
+color: #050922;
+}
+
+.planSuccessful p, .commonMistake p, .eventPlan p {
+padding: 0 32px;
+margin-top: 13px;
+margin-bottom: 26px;
+font-family: "Poppins", sans-serif;
+font-size: 17px;
+font-weight: normal;
+font-stretch: normal;
+font-style: normal;
+line-height: normal;
+letter-spacing: normal;
+text-align: center;
+color: #373b54;
+padding-bottom: 26px;
+}
+
+.articleDiv {
+padding: 0 55px;
+margin-bottom: 46px;
+margin-top: 46px;
+}
+
+.article {
+margin-bottom: 64px;
+}
+
+.viewAllVlog {
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #fff;
+  padding: 10px;
+  border-radius: 3px;
+  box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+  background-color: #af8c3c;
+  text-decoration: none;
+  width: 205px;
+}
+
+.planSmarterDiv h3 {
+font-family: "Abhaya Libre", serif;
+font-size: 42px;
+font-weight: normal;
+font-stretch: normal;
+font-style: normal;
+line-height: normal;
+letter-spacing: normal;
+text-align: left;
+color: #373b54;
+position: relative;
+}
+
+.planSmarterDiv {
+background: #f2ecdc;
+position: relative;
+min-height: 147px;
+display: flex;
+align-items: center;
+justify-content: center;
+padding: 0px 102px;
+}
+
+.planSmarterDiv::before {
+content: url(../img/planSmarterLeft.png);
+position: absolute;
+bottom: -6px;
+left: 0;
+}
+
+.planSmarterDiv::after {
+content: url(../img/planSmarterRight.png);
+position: absolute;
+bottom: 0;
+right: 0;
+}
+
+#play-demo-modal video {
+  width: 100%;
+  height: 100%;
+}
+
+#play-demo-modal .modal-content {
+  transition: none;
+}
+
+#play-demo-modal .modal-content:hover {
+  transform: none;
+}
+
+/* .modal-backdrop.show {
+  opacity: 0 !important;
+} */
+
+.offerMainDiv {
+  margin-top: 50px !important;
+  align-items: center;
+}
+
+.bestyEventImage {
+  display: none;
+}
+
+.header-section-nav .nav-link {
+  color: #050922 !important;
+}
+
+.header-section-nav li:not(:last-child) a.headerLink:hover {
+  color: #d7a844 !important;
+}
+
+.header-section-nav .nav-link.active {
+  color: #af8c3c !important;
+}
+
+.headerNavbar .nav-item:last-child .headerLink:hover {
+  color: #fff !important;
+}
+
+@media (min-width: 768.68px) { 
+  .offerDivContentTextMobile {
+    display: none;
+  }
+}
+
+@media (max-width: 768.68px) {
+  .eventPlannerMainDiv {
+    padding-left: 0px !important;
+  }  
+
+  .eventPlannerContentDiv {
+    margin-top: 120px !important;
+    padding-left: 30px !important;
+    padding-right: 30px !important;
+  }
+
+  .articleDiv { 
+    padding: 0px 25px;
+  }
+
+  .offerPhoneDiv img {
+    width: 100%;
+    height: 100%;
+  }
+
+  .eventPlannerMainDiv h4, .eventPlannerMainDiv h2, .eventPlannerMainDiv p {
+    text-align: center;
+  }
+
+  .eventPlannerMainDiv h2, .offerDivContent h2 {
+    font-size: 32px;
+  }
+
+  .offerDivContent .loremIpsum1 {
+    display: none;
+  }
+
+  .eventButtonsDiv {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+  }
+
+  .eventButtonsDiv .getStarted, .offerDivContent .getStarted {
+    margin-right: 0px;
+  }
+
+  .offerButtonsDiv {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+  }
+  
+  .eventPlannerMainDiv .getStarted {
+    margin-bottom: 30px;
+    border-radius: 21.5px;
+  }
+
+  .offerDivContent .getStarted {
+    border-radius: 21.5px;
+    margin-bottom: 30px !important;
+  }
+
+  .offerDivContent {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 30px !important;
+    padding: 0px 30px !important;
+  }
+
+  .offerDivContent .loremIpsum1, .offerDivContent .loremIpsum2, .offerDivContent h2 {
+    text-align: center;
+  }
+
+  
+
+  .bestyEventDiv {
+    margin-top: 25px;
+  }
+
+  .bestyEventContents {
+    display: flex;
+    align-items:center;
+    padding: 30px;
+    min-height: 100%;
+    padding-top: 60px;
+  }
+
+  .bestyEventMainDiv h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    margin-top: 25px;
+    font-size: 34px;
+  }
+
+  .bestyEventMainDiv:after {
+    left: 50%;
+    transform: translateX(-50%);
+    right: auto;
+    display: none;
+  }
+
+  .bestyEventImage {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    min-height: 450px;
+  }
+
+  .bestyEventImage img {
+    bottom: 0px;
+    position: absolute;
+  }
+
+  .articleCardDiv div {
+    margin-bottom: 20px;
+  }
+
+  .eventPlannerLapDiv img {
+    width: 80%;
+  }
+
+  .eventPlannerLapDiv {
+    margin-top: 30px !important;
+  }
+
+  .planSmarterDiv::before {
+    content: url(../img/flowers2.png);
+  }
+
+  .planSmarterDiv::after {
+    content: url(../img/flowers1.png);
+    top: 0;
+  }
+
+  .planSmarterDiv h3 {
+    font-size: 32px;
+  }
+
+  .article {
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 34px;
+  }
+
+  .articleNews h4 {
+    text-align: center !important;
+    margin-bottom: 20px !important;
+  }
+
+  .articleNews h3 {
+    text-align: center !important;
+    margin-bottom: 20px !important;
+  }
+
+  .viewAllVlog {
+    border-radius: 21.5px;
+  }
+
+  .offerDivContentTextDesktop {
+    display: none;
+  }
+
+  .offerDivContentTextMobile {
+    display: block;
+  }
+
+  .eventPlannerMainDiv::before {
+    content: url(../img/floralmbl.png);
+  }
+ 
+}
+
+@media (min-width: 768px) and (max-width: 1284px) {
+  .bestyEventMainDiv h2 {
+    font-size: 34px;
+  }
+
+  .planSmarterDiv::before {
+    content: url(../img/flowers2.png);
+    left: 20px;
+  }
+
+  .planSmarterDiv::after {
+    content: url(../img/flowers1.png);
+    top: 0;
+    right: 20px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .bestyEventContents {
+    padding-left: 80px;
+    padding-right: 80px;
+  }
+}
+
+@media (min-width: 1284px) and (max-width: 1440px) {
+  .offerMainDiv {
+    margin-top: 130px !important;
+  }
+
+  .offerDivContent {
+    padding-left: 32px !important;
+  }
+}
+
+@media (min-width: 1440px) and (max-width: 2500px) {
+  .offerMainDiv {
+    margin-top: 180px !important;
+  }
+
+  .offerDivContent {
+    padding-left: 72px !important;
+    padding-right: 72px !important;
+  }
+}
+
+
+@media (min-width: 0px) and (max-width: 575px) {
+  .eventPlannerContentDiv {
+    flex: 0 0 auto;
+    width: 100% !important;
+  }
+
+  .offerPhoneDiv {
+    flex: 0 0 auto;
+    width: 100% !important;
+  }  
+
+  .offerDivContent {
+    flex: 0 0 auto;
+    width: 100% !important;
+  }
+
+  .bestyEventContents {
+    flex: 0 0 auto;
+    width: 100% !important;
+    height: 100%;
+  }
+
+  .articleCardDiv div {
+    flex: 0 0 auto;
+    width: 100% !important;
+  }
+
+  .eventPlannerLapDiv {
+    flex: 0 0 auto;
+    width: 100% !important;
+  }
+
+  .bestyEventMainDiv h4 {
+    text-align: center;
+  }
+  
+}
+
+@media (min-width: 0px) and (max-width: 425px) {
+
+  .bestyEventImage {
+    min-height: 400px;
+  }
+
+  .bestyEventContents {
+    padding-top: 60px;
+  }
+
+  .eventPlannerMainDiv h4 {
+    font-size: 16px;
+  }
+
+  .eventPlannerMainDiv p {
+    font-size: 13px;
+  }
+
+  .offerDivContent h4 {
+    font-size: 16px;
+  }
+
+  .offerDivContent .loremIpsum2 {
+    font-size: 13px;
+  }
+
+  .offerDivContent {
+    padding: 0px 30px !important;
+  }
+
+  .planSmarterDiv h3 {
+    font-size: 21px;
+  }
+
+  .articleNews h4 {
+    font-size: 16px;
+  }
+
+  .articleNews h3, .planSuccessful h3, .commonMistake h3, .eventPlan h3 {
+    font-size: 28px;
+  }
+
+  .planSuccessful p, .commonMistake p, .eventPlan p {
+    font-size: 13.5px;
+  }
+
+  .bestyEventImage {
+    min-height: 480px;
+  }
+
+  .bestyEventMainDiv h4 {
+    font-size: 16px;
+  }
+
+  .eventPlannerMainDiv h2, .offerDivContent h2 {
+    font-size: 28px;
+  }
+
+  .bestyEventMainDiv h2 {
+    font-size: 28px;
+  }
+}

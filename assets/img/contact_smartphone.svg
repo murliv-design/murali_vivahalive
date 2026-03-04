@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="32.4" height="54" viewBox="0 0 32.4 54">
+  <g id="smartphone" transform="translate(-102.4)">
+    <g id="Group_13392" data-name="Group 13392" transform="translate(116.8 4.5)">
+      <g id="Group_13391" data-name="Group 13391" transform="translate(0)">
+        <path id="Path_45816" data-name="Path 45816" d="M245.683,42.667h-5.4a1.35,1.35,0,1,0,0,2.7h5.4a1.35,1.35,0,1,0,0-2.7Z" transform="translate(-238.933 -42.667)" fill="#d7a844"/>
+      </g>
+    </g>
+    <g id="Group_13394" data-name="Group 13394" transform="translate(102.4)">
+      <g id="Group_13393" data-name="Group 13393" transform="translate(0)">
+        <path id="Path_45817" data-name="Path 45817" d="M129.4,0H107.8a5.407,5.407,0,0,0-5.4,5.4V48.6a5.407,5.407,0,0,0,5.4,5.4h21.6a5.407,5.407,0,0,0,5.4-5.4V5.4A5.407,5.407,0,0,0,129.4,0Zm2.7,48.6a2.7,2.7,0,0,1-2.7,2.7H107.8a2.7,2.7,0,0,1-2.7-2.7V5.4a2.7,2.7,0,0,1,2.7-2.7h21.6a2.7,2.7,0,0,1,2.7,2.7Z" transform="translate(-102.4)" fill="#d7a844"/>
+      </g>
+    </g>
+    <g id="Group_13396" data-name="Group 13396" transform="translate(115.9 44.1)">
+      <g id="Group_13395" data-name="Group 13395" transform="translate(0)">
+        <circle id="Ellipse_1129" data-name="Ellipse 1129" cx="2.7" cy="2.7" r="2.7" fill="#d7a844"/>
+      </g>
+    </g>
+    <g id="Group_13398" data-name="Group 13398" transform="translate(112.3 4.5)">
+      <g id="Group_13397" data-name="Group 13397" transform="translate(0)">
+        <circle id="Ellipse_1130" data-name="Ellipse 1130" cx="1.35" cy="1.35" r="1.35" fill="#d7a844"/>
+      </g>
+    </g>
+  </g>
+</svg>

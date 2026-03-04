@@ -1,0 +1,1467 @@
+.reachMillionsMainDiv {
+    background-image: url(../img/corporateEvents/reachMillions.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 600px;
+    z-index: 1;
+    position: relative;
+}
+
+.reachMillionsMainDiv::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.reachMillionsDiv {
+    z-index: 2;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    padding: 0px 15%;
+}
+
+.reachMillionsDiv h2 {
+    font-family: "Abhaya Libre", serif;
+  font-size: 50px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #fff;
+}
+
+.reachMillionsDiv p {
+    font-family: Poppins;
+  font-size: 18px;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #fff;
+  margin-top: 28px;
+    margin-bottom: 38px;
+}
+
+.reachMillionsBtnDiv {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.reachMillionsBtnDiv .getStarted, .eventButtonsDiv .getStarted, .viewAllEvent, #btn-close {
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #fff;
+    padding: 10px 25px;
+    border-radius: 3px;
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+    background-color: #af8c3c;
+    text-decoration: none;
+    width: 155px;
+    margin-right: 20px;
+}
+
+#btn-close {
+    width: auto;
+    margin-right: 0px;
+}
+
+.reachMillionsBtnDiv .getStarted:hover,  .eventButtonsDiv .getStarted:hover, .viewAllEvent:hover, #btn-close:hover{
+    background-color: #c4943d;
+    color: #fff;
+}
+
+.reachMillionsBtnDiv .playDemo, .eventButtonsDiv .cellCelebrate {
+    color: #fc2159;
+    background: transparent;
+    border: none;
+    text-decoration: none;
+    margin: 20px 0px;
+    cursor: pointer;
+}
+
+.playDemo .playSpam {
+    margin-right: 8px;
+}
+
+#play-demo-modal video {
+    width: 100%;
+    height: 100%;
+}
+
+#play-demo-modal .modal-content {
+    transition: none;
+}
+
+#play-demo-modal .modal-content:hover {
+    transform: none;
+}
+
+.seamlessVideo, .modernInterface, .endlessStream, .analytics {
+    box-shadow: 0 0 11px 0 rgba(0, 0, 0, 0.16);
+    background-color: #fff;
+    padding: 40px;
+    height: 100%;
+}
+
+.seamlessVideo h4, .modernInterface h4, .endlessStream h4, .analytics h4 {
+    font-family: Poppins;
+  font-size: 16px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 1.2px;
+  text-align: left;
+  color: #050922;
+  margin-top: 15px;
+  margin-bottom: 10px;
+}
+
+.seamlessVideo p, .modernInterface p, .endlessStream p, .analytics p {
+    font-family: Poppins;
+    font-size: 12px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #666;
+}
+
+.eventLiveTopDiv {
+    padding: 0px 10%;
+    position: absolute;
+    top: -32px;
+    z-index: 1;
+}
+
+.eventLiveMainDiv {
+    position: relative;
+}
+
+.seamlessVideo:hover, .modernInterface:hover, .endlessStream:hover, .analytics:hover {
+    background-color: #af8c3c;
+}
+
+.seamlessVideo:hover h4, .modernInterface:hover h4, .endlessStream:hover h4, .analytics:hover h4, 
+.seamlessVideo:hover p, .modernInterface:hover p, .endlessStream:hover p, .analytics:hover p {
+    color: #fff;
+}
+
+.seamlessVideo:hover svg path, .modernInterface:hover svg path, .endlessStream:hover svg path, .analytics:hover svg path {
+    stroke: #fff;
+}
+
+.eventLiveTopMainDiv {
+    height: 320px;
+}
+
+.eventLiveBottomDivImage {
+    height: 100%;
+}
+
+.eventLiveBottomDivImage img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.eventLiveBottomDivContents h4 {
+    font-family: Poppins;
+    font-size: 21px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #af8c3c;
+    margin-top: 15px;
+}
+
+.eventLiveBottomDivContents h2 {
+    font-family: "Abhaya Libre", serif;
+  font-size: 50px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #373b54;
+}
+
+.eventLiveBottomDivContents p {
+    font-family: Poppins;
+  font-size: 18px;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #373b54;
+  margin-top: 24px;
+  margin-bottom: 48px;
+}
+
+.eventLiveMainDiv::before {
+    position: absolute;
+    content: url(../img/corporateEvents/OBJECTS.png);
+    bottom: -135px;
+    left: -85px;
+}
+
+.eventLiveMainDiv::after {
+    position: absolute;
+    content: url(../img/corporateEvents/circle1.png);
+    top: 0;
+    right: 0;
+}
+
+.eventLiveBottomDiv {
+    height: 500px;
+    padding: 0px 8%;
+}
+
+.offerRangeTopDiv img, .offerRangeBottomDiv img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.offerRangeMainDiv {
+    margin-top: 70px;
+    padding: 0px 8%;
+}
+
+.offerRangeBottomDiv {
+    margin-top: 26px;
+}
+
+.offerRangeContentDiv {
+    /* height: 352px; */
+}
+
+.offerRangeContentDiv h4 {
+    font-family: Poppins;
+  font-size: 21px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #af8c3c;
+  margin-top: 10px;
+}
+
+.offerRangeContentDiv h2 {
+    font-family: "Abhaya Libre", serif;
+  font-size: 50px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #373b54;
+}
+
+.offerRangeContentDiv p {
+    font-family: Poppins;
+  font-size: 18px;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #373b54;
+  margin-top: 15px;
+    margin-bottom: 30px;
+}
+
+.offerRangeImageDiv {
+    height: 352px;
+}
+
+.offerRangeImageDiv img {
+    border-radius: 6px;
+}
+
+.reasonsMainDiv {
+    background-image: url(../img/corporateEvents/building\ banner.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-top: 70px;
+    padding: 50px;
+}
+
+.reasonsTopDiv {
+    margin-bottom: 50px;
+}
+
+.reasonsTopDiv h2 {
+    font-family: "Abhaya Libre", serif;
+  font-size: 40px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #fff;
+}
+
+.reasonsBottomDiv h2 {
+    font-family: Poppins;
+  font-size: 40px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #fff;
+}
+
+.reasonsBottomDiv p {
+    font-family: Poppins;
+  font-size: 18px;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #fff;
+}
+
+.reasonsBottomDiv {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.howItWorkMainDiv {
+    padding: 85px 7%;
+    display: flex;
+    position: relative;
+}
+
+.howItWorkImageDiv {
+    height: 400px;
+    background-color: #af8c3c;
+    margin-right: 80px;
+    position: relative;
+}
+
+.howItWorkImageDiv::before {
+    content: "";
+    position: absolute;
+    height: 400px;
+    width: 100%; /* Set the width for the pseudo-element */
+    background-image: url(../img/corporateEvents/two-businesswomen-working-cafe.png);
+    background-size: cover; /* This works like object-fit: cover */
+    background-position: top; /* Centers the background image */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    left: 15px;
+    bottom: 15px;
+}
+
+.howItWorkBottomDiv h4 {
+    font-family: Poppins;
+    font-size: 21px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #af8c3c;
+}
+
+.howItWorkBottomDiv h2 {
+    font-family: "Abhaya Libre", serif;
+    font-size: 50px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #373b54;
+    margin-bottom: 24px;
+}
+
+.howItWorkBottomDiv h5 {
+    font-family: "Abhaya Libre", serif;
+    font-size: 22px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #373b54;
+}
+
+.howItWorkBottomDiv p {
+    font-family: Poppins;
+    font-size: 11px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #373b54;
+}
+
+.howItWorkContents {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.howItWorkContentsText {
+    margin-left: 24px;
+}
+
+.howItWorkMainDiv::before {
+    position: absolute;
+    content: url(../img/corporateEvents/circle2.png);
+    bottom: -135px;
+    left: -85px;
+}
+
+.howItWorkMainDiv::after {
+    position: absolute;
+    content: url(../img/corporateEvents/circle3.png);
+    top: 0;
+    right: 0;
+}
+
+.clientSaysMainDiv {
+    background-image: url(../img/corporateEvents/people-having-fun-wedding-hall.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 352px;
+    z-index: 1;
+    position: relative;
+}
+
+.clientSaysMainDiv::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.clientSaysDiv {
+    z-index: 2;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    padding: 0px 15%;
+}
+
+.clientSaysDiv h4 {
+    font-family: Poppins;
+    font-size: 21px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #af8c3c;
+}
+
+.clientSaysDiv h2 {
+    font-family: "Abhaya Libre", serif;
+    font-size: 40px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #fff;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+
+.clientSaysDiv p {
+    font-family: Poppins;
+    font-size: 11px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #fff;
+}
+
+.commentsMainDiv {
+    height: 320px;
+    position: relative;
+}
+
+.commentsTopDiv {
+    padding: 0px 8%;
+    position: absolute;
+    top: -32px;
+    z-index: 1;
+}
+
+.commentsDiv {
+    background-color: #fff;
+    padding: 25px;
+    border-top: 3px solid #af8c3c;
+    box-shadow: 0 0 11px 0 rgba(0, 0, 0, 0.16);
+    height: 100%;
+    position: relative;
+}
+
+/* .commentsDiv::before {
+    position: absolute;
+    content: url(../img/corporateEvents/croped\ circle.png);
+    bottom: -7px;
+    left: 0px;
+} */
+
+.commentsDiv p {
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #373b54;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.commentsDiv h4 {
+    font-family: "Abhaya Libre", serif;
+    font-size: 28px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #373b54;
+}
+
+.commentsDiv h5 {
+    font-family: Poppins;
+    font-size: 15px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #af8c3c;
+}
+
+.callUsContactUsMainDiv {
+    margin-top: 70px;
+    padding: 0px 8%;
+}
+
+.contactUsDiv h4, .contactInformationDiv h4 {
+    font-family: Poppins;
+    font-size: 21px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #af8c3c;
+}
+
+.contactUsDiv h2 {
+    font-family: "Abhaya Libre", serif;
+    font-size: 42px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #373b54;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.contactUsDiv p {
+    font-family: Poppins;
+    font-size: 11px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #9e9e9e;
+}
+
+.contactInformationDiv {
+    border-bottom: 1px solid #efefef;
+    margin-bottom: 15px;
+}
+
+.contactInformationDiv h2 {
+    font-family: "Abhaya Libre", serif;
+    font-size: 27px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #373b54;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+.contactInformationDiv p {
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #050922;
+    margin-bottom: 15px;
+}
+
+.callUsDiv h2 {
+    font-family: "Abhaya Libre", serif;
+    font-size: 27px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #373b54;
+}
+
+.callUsDiv p {
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #050922;
+}
+
+.socialMediaIcons {
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.16);
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 15px;
+}
+
+.socialMediaIcons:hover {
+    box-shadow: 0 0 6px 0 rgba(238, 169, 42, 0.58);
+}
+
+.contactWithUsSocialMedia h2 {
+    font-family: "Abhaya Libre", serif;
+  font-size: 27px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #373b54;
+  margin-bottom: 20px;
+}
+
+.mapIframe {
+    height: 300px;
+}
+
+.mapIframe iframe {
+    height: 100%;
+}
+
+.contactUsFormDiv {
+    padding: 28px 48px;
+    height: 100%;
+}
+
+.contactUsFormMainDiv {
+    background-image: url(../img/corporateEvents/people-having-fun-wedding-hall_card.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 352px;
+    z-index: 1;
+    position: relative;
+    height: 100%;
+}
+
+.contactUsFormDiv h2 {
+    font-family: Poppins;
+  font-size: 18px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #fff;
+  margin-bottom: 26px;
+}
+
+.contactInputQuestions input, .contactInputQuestions textarea {
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #707070;
+    padding: 13px 17px;
+    border-radius: 23px;
+    border: solid 1px #af8c3c;
+    background-color: transparent;
+    margin-bottom: 15px;
+    color: #fff;
+    background: transparent;
+}
+
+.contactInputQuestions .form-group, .contactInputQuestions .form-group {
+    margin-bottom: 15px;
+}
+
+.contactInputQuestions .invalid-feedback {
+    position: relative!important;
+}
+
+.formControl.is-valid, .was-validated .formControl:valid {
+    background: transparent !important;
+}
+
+/* .contactInputQuestions input:hover, .contactInputQuestions textarea:hover,
+.contactInputQuestions input:focus, .contactInputQuestions textarea:focus,
+.contactInputQuestions input:active, .contactInputQuestions textarea:active
+ {
+    background: transparent !important;
+} */
+
+INPUT:-webkit-autofill:hover, INPUT:-webkit-autofill:focus, INPUT:-webkit-autofill:active, SELECT:-webkit-autofill:hover, SELECT:-webkit-autofill:focus, SELECT:-webkit-autofill:active, TEXTAREA:-webkit-autofill:hover, TEXTAREA:-webkit-autofill:focus, TEXTAREA:-webkit-autofill:active {
+    -webkit-background-clip: inherit;
+}
+
+.contactInputQuestions input::placeholder, .contactInputQuestions textarea::placeholder {
+    color: #fff;
+}
+
+.contactInputQuestions input:focus, .contactInputQuestions textarea:focus {
+    background-color: transparent;
+    box-shadow: none;
+    color: #fff;
+}
+
+#btnSubmit {
+    text-transform: inherit;
+}
+
+.contactInputQuestions button {
+    border-radius: 21.5px;
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+    background-color: #af8c3c;
+    border: none;
+    margin-top: 15px;
+    width: 100%;
+    padding: 10px;
+}
+
+.contactInputQuestions button:hover {
+    background-color: #c4943d;
+    color: #fff;
+}
+
+.planSmarterDiv {
+    background: #f2ecdc;
+    position: relative;
+    min-height: 147px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0px 102px;
+    margin-top: 50px;
+}
+
+.planSmarterDiv::before {
+    content: url(../img/planSmarterLeft.png);
+    position: absolute;
+    bottom: -6px;
+    left: 0;
+}
+
+.planSmarterDiv::after {
+    content: url(../img/planSmarterRight.png);
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.planSmarterDiv h3 {
+    font-family: "Abhaya Libre", serif;
+    font-size: 42px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #373b54;
+    position: relative;
+}
+
+.contactInputQuestions button:focus, .contactInputQuestions button:active {
+    border-radius: 21.5px;
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16) !important;
+    background-color: #af8c3c !important;
+    border: none;
+}
+
+@media (min-width: 768.68px) {
+    .offerRangeImageDivText {
+        display: none;
+    }
+
+    .offerRangeContentDiv, .offerRangeImageDiv {
+        padding-left: 15px !important;
+        padding-right: 15px !important;
+    }
+}
+
+@media (max-width: 768.68px) {
+    .planSmarterDiv h3 {
+        font-size: 32px;
+    }
+
+    .planSmarterDiv::before {
+        content: url(../img/flowers2.png);
+    }
+
+    .planSmarterDiv::after {
+        content: url(../img/flowers1.png);
+        top: 0;
+    }
+
+    .seamlessVideo, .modernInterface, .endlessStream, .analytics {
+        padding: 20px;
+    }
+
+    .eventLiveTopDivIndividualTwo, .eventLiveTopDivIndividualThree {
+        margin-top: 20px;
+    }
+
+    .eventLiveBottomDiv {
+        height: 100%;
+        background-color: #fffdf8;
+    padding-top: 20px !important;
+    padding-bottom: 20px !important;
+    }
+
+    .seamlessVideo, .modernInterface, .endlessStream, .analytics {
+        text-align: center;
+    }
+
+    .seamlessVideo h4, .modernInterface h4, .endlessStream h4, .analytics h4 {
+        text-align: center;
+    }
+
+    .seamlessVideo p, .modernInterface p, .endlessStream p, .analytics p {
+        text-align: center;
+    }
+
+    .eventLiveBottomDivContents h4, .offerRangeContentDiv h4, .howItWorkBottomDiv h4, .clientSaysDiv h4 {
+        font-size: 17px;
+        text-align: center;
+    }
+
+    .eventLiveBottomDivContents h2, .offerRangeContentDiv h2, .howItWorkBottomDiv h2, .reasonsTopDiv h2, .clientSaysDiv h2 {
+        font-size: 34px;
+        text-align: center;
+    }
+
+    .eventLiveBottomDivContents p, .offerRangeContentDiv p {
+        font-size: 14px;
+        text-align: center;
+    }
+
+    .offerRangeContentDiv {
+        height: 330px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .offerRangeImageDiv {
+        height: 260px;
+    }
+
+    .offerRangeContentDiv div, .eventButtonsDiv {
+        text-align: center;
+    }
+
+    .eventLiveTopMainDiv {
+        height: 570px;
+    }
+
+    .eventLiveMainDiv::before {
+        content: "";
+    }
+
+    .eventLiveBottomDivContents {
+        margin-top: 40px;
+    }
+
+    .offerRangeMainDiv {
+        margin-top: 0px;
+    }
+
+    .offerRangeContentDiv p {
+        margin-bottom: 48px;
+    }
+
+    .offerRangeImageDivMarginTop {
+        margin-top: 26px;
+    }
+
+    .reasonsBottomDiv {
+        flex-direction: column;
+    }
+
+    .reasonsBottomDiv div {
+        width: 100%;
+    }
+
+    .reasonsBottomDiv div:not(:last-child) {
+        margin-bottom: 50px;
+    }
+
+    .eventLiveTopDiv {
+        padding: 0px 3%;
+    }
+
+    .howItWorkMainDiv {
+        flex-direction: column;
+        padding: 70px 0px 70px 0px;
+    }
+
+    .howItWorkTopDiv {
+        padding: 0px 40px 0px 20px;
+    }
+
+    .howItWorkBottomDiv {
+        padding: 0px 20px;
+    }
+
+    .howItWorkImageDiv {
+        margin-right: 0px;
+    }
+
+    .howItWorkBottomDiv {
+        margin-top: 50px;
+    }
+
+    .howItWorkContents {
+        flex-direction: column;
+    }
+
+    .howItWorkContentsText {
+        display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 0px;
+    }
+
+    .howItWorkBottomDiv p {
+        text-align: center;
+    }
+
+    .howItWorkBottomDiv h5 {
+        margin-top: 18px;
+        margin-bottom: 10px;
+    }
+
+    .commentsDiv p {
+        font-size: 14px;
+    }
+
+    .commentsMainDiv {
+        height: 900px;
+    }
+
+    .commentsDiv h4 {
+        font-size: 21px;
+    }
+
+    .commentsDiv h5 {
+        font-size: 14px;
+    }
+
+    .commentsDiv {
+        padding: 20px;
+    }
+
+    .commentsTopDiv {
+        padding: 0px 3%;
+    }
+
+    .commentsDivMarginTop {
+        margin-top: 20px;
+    }
+
+    .reachMillionsDiv h2 {
+        font-size: 34px;
+    }
+
+    .reachMillionsDiv p {
+        font-size: 14px;
+    }
+
+    .reachMillionsBtnDiv .getStarted, .eventButtonsDiv .getStarted, .viewAllEvent {
+        border-radius: 21.5px;
+    }
+
+    .offerRangeImageDivForTint {
+        position: relative
+    }
+
+    .offerRangeImageDivText {
+        position: absolute;
+        bottom: 15px;
+        left: 20px;
+        z-index: 1;
+    }
+
+    .offerRangeImageDivForTint:after {
+        content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 50%;
+    background: linear-gradient(to top, rgba(0, 0, 0, 1), transparent);
+    border-radius: 0px 0px 6px 6px;
+    }
+
+    .offerRangeImageDivText h3 {
+        font-family: "Abhaya Libre", serif;
+  font-size: 34px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #fff;
+    }
+
+    .offerRangeImageDivText a {
+        font-family: Poppins;
+  font-size: 18px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #af8c3c;
+  text-decoration: none;
+    }
+
+}
+
+@media (max-width: 991px) {
+    .mapDiv, .contactUsFormMainDivs, .contactUsContentsDiv {
+        flex: 0 0 auto;
+        width: 100%;
+    }
+
+    .callUsContactUsMainDiv { 
+        padding: 0px 3%;
+    }
+
+    .callUsContactUsDiv {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .contactUsDiv h4, .contactInformationDiv h4 {
+        font-size: 17px;
+    }
+
+    .contactUsDiv h2 {
+        font-size: 34px;
+    }
+
+    .contactInformationDiv h2, .callUsDiv h2 {
+        font-size: 21px;
+    }
+
+    .contactUsFormMainDivs, .mapDiv, .contactWithUsSocialMedia {
+        margin-top: 40px;
+    }
+
+    .contactWithUsSocialMedia {
+        display: flex;
+    flex-direction: column;
+    align-items: center;
+    }
+
+    .contactWithUsSocialMedia h2 {
+        font-size: 21px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .eventLiveTopDiv {
+        padding: 0px 3%;
+    }
+
+    .eventLiveBottomDiv {
+        height: 100%;
+        padding: 0px 3%;
+    }
+
+    .eventButtonsDiv {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .commentsTopDiv {
+        padding: 0px 3%;
+    }
+
+    .commentsDiv p {
+        font-size: 14px;
+    }
+
+    .commentsDiv h4 {
+        font-size: 21px;
+    }
+
+    .commentsDiv h5 {
+        font-size: 14px;
+    }
+
+   
+}
+
+
+@media (min-width: 768px) and (max-width: 1284px) {
+    .planSmarterDiv::before {
+        content: url(../img/flowers2.png);
+        left: 20px;
+    }
+
+    .planSmarterDiv::after {
+        content: url(../img/flowers1.png);
+        top: 0;
+        right: 20px;
+    }
+}
+
+@media (min-width: 1199px) and (max-width: 1560px) {
+    .seamlessVideo, .modernInterface, .endlessStream, .analytics {
+        padding: 20px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1198px) {
+    .eventLiveTopMainDiv {
+        height: 570px;
+    }
+
+    .seamlessVideo, .modernInterface, .endlessStream, .analytics {
+        padding: 30px;
+    }
+
+    .endlessStream, .analytics {
+        margin-top: 20px;
+    }
+
+    .seamlessVideo, .modernInterface, .endlessStream, .analytics {
+        text-align: center;
+    }
+
+    .seamlessVideo h4, .modernInterface h4, .endlessStream h4, .analytics h4 {
+        text-align: center;
+    }
+
+    .seamlessVideo p, .modernInterface p, .endlessStream p, .analytics p {
+        text-align: center;
+    }
+
+    .eventLiveBottomDivContents h4, .offerRangeContentDiv h4, .howItWorkBottomDiv h4, .clientSaysDiv h4 {
+        font-size: 17px;
+    }
+
+    .eventLiveBottomDivContents h2, .offerRangeContentDiv h2, .howItWorkBottomDiv h2, .reasonsTopDiv h2, .clientSaysDiv h2 {
+        font-size: 34px;
+    }
+
+    .eventLiveBottomDivContents p, .offerRangeContentDiv p {
+        font-size: 14px;
+    }
+
+    .eventLiveBottomDivContents {
+        display: flex;
+    flex-direction: column;
+    justify-content: center;
+    }
+
+    .eventLiveBottomDiv {
+        height: 100%;
+    }
+
+    .commenterDetailsDiv {
+        flex-direction: column;
+    }
+}
+
+@media (min-width: 575px) and (max-width: 610px) {
+    .eventLiveTopMainDiv {
+        height: 600px;
+    }
+}
+
+@media (min-width: 0px) and (max-width: 575px) {
+    .eventLiveTopDiv .eventLiveTopDivIndividual,
+    .eventLiveTopDiv .eventLiveTopDivIndividualOne,
+    .eventLiveTopDiv .eventLiveTopDivIndividualTwo,
+    .eventLiveTopDiv .eventLiveTopDivIndividualThree,
+    .eventLiveBottomDivImage,
+    .eventLiveBottomDivContents,
+    .offerRangeContentDiv,
+    .offerRangeImageDiv,
+    .howItWorkTopDiv,
+    .howItWorkBottomDiv,
+    .commentsDivOne,
+    .commentsDivTwo,
+    .commentsDivThree {
+        flex: 0 0 auto;
+        width: 100%;
+    }
+
+    .eventLiveTopDiv .eventLiveTopDivIndividualOne {
+        margin-top: 20px;
+    }
+
+    .eventLiveTopMainDiv {
+        height: 1000px;
+    }
+
+    .eventLiveBottomDiv, .offerRangeMainDiv { 
+        padding: 0px 3%;
+    }
+
+    .reachMillionsBtnDiv {
+        flex-direction: column;
+    }
+
+    .reachMillionsBtnDiv .getStarted {
+        margin-right: 0px;
+    }
+
+    .eventButtonsDiv {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .eventButtonsDiv .getStarted, .viewAllEvent {
+        margin-right: 0px;
+    }
+}
+
+@media (min-width: 0px) and (max-width: 320px) { 
+    .eventLiveTopMainDiv {
+        height: 1088px;
+    }
+
+    .offerRangeContentDiv {
+        height: 370px !important;
+    }
+}
+
+@media (min-width: 321px) and (max-width: 348px) { 
+    .eventLiveTopMainDiv {
+        height: 1079px;
+    }
+}
+
+@media (min-width: 348px) and (max-width: 368px) { 
+    .eventLiveTopMainDiv {
+        height: 1090px;
+    }
+}
+
+@media (min-width: 368px) and (max-width: 375px) { 
+    .eventLiveTopMainDiv {
+        height: 1040px;
+    }
+}
+
+@media (min-width: 0px) and (max-width: 425px) { 
+    .offerRangeContentDiv {
+        height: 390px;
+    }
+
+    .contactUsFormDiv {
+        padding: 28px 28px;
+    }
+
+    .planSmarterDiv h3 {
+        font-size: 21px;
+    }
+
+    .callUsContactUsMainDiv {
+        padding: 0px 0%;
+    }
+
+    .contactUsFormMainDivs {
+        padding: 0px;
+    }
+
+    .contactUsFormDiv {
+        padding: 28px 10px;
+    }
+}
+
+@media (min-width: 0px) and (max-width: 575px) { 
+    .seamlessVideo, .modernInterface, .endlessStream, .analytics {
+        border-bottom: 2px solid #af8c3c;
+    }
+
+    .reachMillionsDiv h2 {
+        font-size: 28px;
+    }
+
+    .eventLiveBottomDivContents h2, .offerRangeContentDiv h2, .howItWorkBottomDiv h2, .reasonsTopDiv h2, .clientSaysDiv h2, .contactUsDiv h2 {
+        font-size: 28px;
+    }
+}
+
+@media (min-width: 375px) and (max-width: 425px) { 
+    .commentsMainDiv {
+        height: 868px;
+    }
+
+    .eventLiveTopMainDiv {
+        height: 1040px;
+    }
+}
+
+@media (min-width: 425px) and (max-width: 487px) { 
+    .eventLiveTopMainDiv {
+        height: 1040px;
+    }
+}
+
+@media (min-width: 487px) and (max-width: 575px) { 
+    .eventLiveTopMainDiv {
+        height: 969px;
+    }
+}
+
+@media (min-width: 425px) and (max-width: 575px) { 
+    .commentsMainDiv {
+        height: 810px;
+    }
+}
+
+@media (min-width: 575px) and (max-width: 645px) { 
+    .commentsMainDiv {
+        height: 810px;
+    }
+}
+
+@media (min-width: 645px) and (max-width: 768px) { 
+    .commentsMainDiv {
+        height: 750px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) { 
+    .commentsMainDiv {
+        height: 405px;    
+    }
+}
+
+@media (min-width: 991px) and (max-width: 1191px) { 
+    .commentsMainDiv {
+        height: 422px;    
+    }
+}
+
+@media (min-width: 1191px) and (max-width: 1280px) { 
+    .commentsMainDiv {
+        height: 350px;    
+    }
+}

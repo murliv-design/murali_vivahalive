@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="46" height="46" viewBox="0 0 46 46">
+  <defs>
+    <filter id="Ellipse_881" x="0" y="0" width="46" height="46" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Group_3080" data-name="Group 3080" transform="translate(-361 -400)">
+    <g transform="matrix(1, 0, 0, 1, 361, 400)" filter="url(#Ellipse_881)">
+      <g id="Ellipse_881-2" data-name="Ellipse 881" transform="translate(9 6)" fill="#fff" stroke="#707070" stroke-width="1">
+        <circle cx="14" cy="14" r="14" stroke="none"/>
+        <circle cx="14" cy="14" r="13.5" fill="none"/>
+      </g>
+    </g>
+    <g id="vuesax_bold_video-circle" data-name="vuesax/bold/video-circle" transform="translate(367 403)">
+      <g id="video-circle" transform="translate(0 0)">
+        <path id="Vector" d="M15,0A15,15,0,1,0,30,15,15.005,15.005,0,0,0,15,0Zm3.99,17.595L17.07,18.7l-1.92,1.11c-2.475,1.425-4.5.255-4.5-2.6V12.78c0-2.865,2.025-4.02,4.5-2.6l1.92,1.11,1.92,1.11C21.465,13.83,21.465,16.17,18.99,17.595Z" transform="translate(2 2)" fill="#fc2159"/>
+        <path id="Vector-2" data-name="Vector" d="M0,0H34V34H0Z" fill="none" opacity="0"/>
+      </g>
+    </g>
+  </g>
+</svg>

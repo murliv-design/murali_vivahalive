@@ -1,0 +1,341 @@
+.headerLink{
+    color: #050922!important;
+}
+.eventPlanner{
+    max-width:45%;
+    width:100%;
+    padding: 130px 70px 154px;
+}
+.eventPlanner h4{
+    font-size: 21px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #af8c3c;
+    font-family: "Poppins", sans-serif;
+    margin-bottom:30px;
+}
+.eventPlanner h2{
+    font-family: "Abhaya Libre", serif;
+  font-size: 50px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #373b54;
+  margin-bottom:24px;
+}
+.eventPlanner p{
+    font-family: "Poppins", sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #373b54;
+    margin-bottom:38px;
+}
+.eventPlanner .getStarted,.offerRange .getStarted,.consultation,.viewAllVlog{
+    font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #fff;
+  padding:10px;
+  border-radius: 3px;
+  box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+  background-color: #af8c3c;
+  text-decoration:none;
+  width: 155px;
+}
+.playSpam,.callSpam{
+    margin-right:8px;
+    /* padding:10px;
+    background:#fc2159;
+    border-radius:50%; */
+}
+.playDemo,.cellCelebrate{
+    color:#fc2159;
+    background:transparent;
+    border:none;
+}
+.session2{
+    padding:78px;
+}
+.offerRange h4{
+    font-family: "Poppins", sans-serif;
+  font-size: 21px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #af8c3c;
+  margin-bottom:10px;
+}
+.offerRange h2{
+    font-family: "Abhaya Libre", serif;
+    font-size: 50px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #373b54;
+    margin-bottom:15px;
+}
+.offerRange .loremIpsum1{
+    font-family: "Poppins", sans-serif;
+    font-size: 15px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #373b54;
+    margin-bottom:31px;
+}
+.loremIpsum1{
+    position:relative;
+    padding-left:20px;
+}
+.loremIpsum1:before{
+    position:absolute;
+    content:"";
+    width: 3px;
+  height: 100%;
+  background-color: #af8c3c;
+  left:0;
+}
+.offerRange .loremIpsum2{
+    font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #373b54;
+  margin-bottom:46px;
+ 
+
+}
+
+.bestyEvent{
+    width:50%;
+    
+}
+.bestyEvent:after{
+position:absolute;
+content:url("../img/happySmiling.png");
+right:0;
+bottom:0;
+}
+.bestyEvent h4{
+    font-family: "Poppins", sans-serif;
+    font-size: 21px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #d7a844;
+}
+.bestyEvent h2{
+    font-family: "Abhaya Libre", serif;
+  font-size: 48px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #fff;
+  margin-bottom:10px;
+}
+.section3{
+    background-image: url("../img/bestyGroup.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding:38px 141px 36px 141px;
+  position:relative;
+  margin-top:81px;
+}
+.section4{
+    padding:0 37px;
+margin-top:119px;
+margin-bottom:46px;
+}
+.article{
+    margin-bottom:64px;
+}
+.articleNews h4{
+    font-family: "Poppins", sans-serif;
+  font-size: 21px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #af8c3c;
+  margin-bottom:20px;
+}
+.articleNews h3{
+    font-family: "Abhaya Libre", serif;
+  font-size: 44px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #050922;
+  margin-bottom:65px;
+}
+.planSuccessfulDiv{
+    text-decoration: none;
+    box-shadow: 1px 1px 6px 0 rgba(0, 0, 0, 0.16);
+    background-color: #fff;
+    border-bottom: 3px solid #af8c3c;
+}
+.planSuccessful .successImg,.mistakeImg,.concertImg{
+    padding:12px;
+}
+ .planSuccessful h3,.commonMistake h3,.eventPlan h3{
+    padding:0 23px;
+    margin-top:9px;
+    font-family: "Abhaya Libre", serif;
+    font-size: 34px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #050922;
+ }
+ .planSuccessful ,.commonMistake,.eventPlan{
+    text-decoration: none;
+ }
+ .planSuccessful p,.commonMistake p,.eventPlan p{
+    padding:0 32px;
+    margin-top:13px;
+    margin-bottom:26px;
+    font-family: "Poppins", sans-serif;
+    font-size: 17px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #373b54;
+    padding-bottom:26px;
+ }
+ .article .col-4{
+    padding:12px;
+ }
+ .section5{
+    padding:45px;
+    background: #efc5c5;
+ }
+ .section5 h3{
+    text-align: center;
+    font-family: "Abhaya Libre", serif;
+    font-size: 42px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #373b54;
+  
+    position: relative;
+ }
+ 
+.section5::before {
+    content: url('../img/planSmarterLeft.png');
+    position: absolute;
+bottom: 0;       
+    left: 0;   
+}
+
+.section5::after {
+    content: url('../img/planSmarterRight.png');
+    position: absolute;
+    bottom: 0;  
+    right: 0; 
+}
+.socialMediaFooter{
+    margin-top:21px;
+    padding:0 80px;
+    display:flex;
+    align-items: center;
+}
+.socialLine{
+    width:calc(100% - 160px);
+    margin-left:auto;
+    margin-right:auto;
+    background-color: #050922;
+    height:0.3px;
+    margin-bottom:15px;
+}
+.flex-column p{
+    padding-bottom:20px;
+    margin-right:12px;
+}
+.footReserved{
+    width:50%;
+}
+.termServices{
+    width:50%;
+    display: flex;
+    justify-content: space-between;
+}
+.termServices a{
+    font-family: "Poppins", sans-serif;
+  font-size: 15px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #373b54;
+  text-decoration:none;
+}
+.section1{
+    position:relative;
+}
+.section1:before{
+    position:absolute;
+    content:url("../img/partnerObj.png");
+    right:0;
+    z-index:-1;
+}
+.devicemockup{
+    height: 680px;
+    width: 55%;
+    background-image: url(../img/devicemockup.png);
+    background-size: cover;
+    margin-top: 130px;
+margin-bottom: 71px;
+}

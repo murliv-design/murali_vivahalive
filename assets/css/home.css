@@ -1,0 +1,1652 @@
+.section-1{
+  /* background-image: url(../img/wedding-cermoney.jpg); */
+  /* background-image: url(../img/home_background.png); */
+  width: 100%;
+  height:100%;
+  background-size: cover;
+  background-position: top;
+  background-repeat: no-repeat;
+  z-index: 0; 
+  position: relative;
+  
+}
+.mobileImg{
+  width: 241px!important;
+    max-height: 100%; 
+    max-width: 100%;
+}
+.weddingImg{
+  width: 100%;
+  height:100%;
+  background-size: cover;
+  background-position: top;
+  background-repeat: no-repeat;
+  z-index: -1;
+  position:absolute;
+  object-fit: cover;
+}
+.crayons-article__cover {
+  position: relative;
+  width: 100%;
+  height: auto; /* Adjust height as needed */
+}
+
+.crayons-article__cover__image {
+  display: block;
+  width: 100%;
+  height: auto; /* Maintain aspect ratio */
+}
+
+.curve-layer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 50%; /* Height of the white layer */
+  background-color: white; /* Background color of the layer */
+  border-radius: 0 0 50% 50%; /* Curved bottom corners */
+  z-index: 1; /* Ensure the layer is above the image */
+}
+.weddingLiveDiv h3{
+  font-family: "Abhaya Libre", serif;
+  font-size: 50px;
+font-weight: bold;
+font-stretch: normal;
+font-style: normal;
+line-height: normal;
+letter-spacing: normal;
+text-align: center;
+color: #fff;
+margin-bottom:28px;
+}
+.weddingPhotoShowcase p{
+  font-family: "Poppins", sans-serif;
+  font-size: 17px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #373b54;
+margin-bottom: 35px;
+}
+.weddingLiveDiv p{
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 586px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  margin-bottom:73px;
+  text-transform: capitalize;
+}
+.weddingLiveDiv{
+  display:flex;
+flex-direction:column;
+align-items:center;
+justify-content: center;
+height:60vh;
+max-height:100%;
+position:relative;
+top:15vh;
+}
+.getStarted{
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #fff;
+  background-color: #d7a844;
+  margin-right:20px;
+  box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+  border-radius: 3px;
+  padding: 10px;
+  width: 190px;
+  cursor:pointer;
+  position: relative;
+    z-index: 10;
+}
+.signUp{
+  font-family: "Poppins", sans-serif;
+font-size: 16px;
+font-weight: 500;
+font-stretch: normal;
+font-style: normal;
+line-height: normal;
+letter-spacing: normal;
+text-align: center;
+color: #fff;
+  border: solid 1px #d7a844;
+  background:transparent;
+   width:155px;
+   border-radius: 3px;
+   cursor:pointer;
+}
+.getStarted:hover{
+  background-color:  #c4943d;
+}
+.moreInfo:hover,.weddingPhotpGetStarted:hover,.continue:hover{
+  background-color:  #c4943d!important;
+}
+.signUp:hover{
+  color:  #c4943d;
+}
+.introductionDiv h3{
+  margin-top:121px;
+  font-family: "Poppins", sans-serif;
+font-size: 16px;
+font-weight: 300;
+font-stretch: normal;
+font-style: normal;
+line-height: normal;
+letter-spacing: normal;
+text-align: center;
+color: #050922;
+margin-bottom:7px;
+background-repeat:no-repeat;
+margin-bottom:13px;
+}
+.downScroll{
+  cursor:pointer;
+}
+/* .introductionDiv:before{
+  position:absolute;
+  content:"";
+background-image:url("../img/Group 3049.png");
+width:100%;
+height:100%;
+background-repeat: no-repeat;
+} */
+.introductionDiv p{
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #050922;
+}
+.introductionDiv {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  padding-bottom: 45px;
+  position:relative;
+  width: 100%;
+  background-image: url(../img/maskGroup.png);
+  background-size: 100%;
+  background-repeat:no-repeat;
+  height:40vh;
+  max-height:100%;
+  background-size:cover;
+  background-position: bottom;
+
+}
+.yourUltimate h2{
+  font-family: "Abhaya Libre", serif;
+  font-size: 42px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #050922;
+  text-transform: capitalize;
+  
+}
+.yourUltimate{
+  padding: 55px 0 34px;
+}
+.yourUltimate p{
+  font-family: "Poppins", sans-serif;
+  font-family: Poppins;
+  font-size: 17px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 1.28px;
+  text-align: center;
+  color: #373b54;
+  
+}
+.faq{
+  padding:77px;
+}
+.faq h2{
+  font-family: "Abhaya Libre", serif;
+  font-size: 42px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #050922;
+  margin-bottom:40px;
+  text-transform: capitalize;
+}
+.accordion-button{
+  font-family: "Poppins", sans-serif;
+font-size: 22px;
+font-weight: 500;
+font-stretch: normal;
+font-style: normal;
+line-height: normal;
+letter-spacing: normal;
+text-align: left;
+color: #373b54!important;
+
+}
+.accordion-body{
+  font-family: "Poppins", sans-serif;
+  font-size: 17px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #4d5064!important;
+}
+.accordion-header {
+  margin-bottom:0px!important;
+  border:0
+}
+.accordion-item{
+  border:0!important;
+}
+.accordion-button::after {
+  order: -1; 
+  margin-left: 0!important; 
+  margin-right: 32px;
+}
+.accordion-button .accordion-button-text {
+ text-align: center;
+}
+.accordion-button:focus{
+  box-shadow: none!important;
+  border:0!important;
+}
+#accordionExample{
+  max-width: 761px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.accrContent{
+  font-family: "Poppins", sans-serif;
+  font-size: 22px!important;
+font-weight: 500;
+font-stretch: normal;
+font-style: normal;
+line-height: normal;
+letter-spacing: normal;
+text-align: left;
+color: #373b54;
+background:transparent!important;
+border-bottom:0!important;
+}
+.planWedding{
+  background-image:url("../img/banner_bg.png");
+  width:100%;
+  height:100%;
+  background-size: cover;
+  background-position: center;
+  box-shadow: 0 1px 6px 0 rgba(0, 0, 0, 0.16);
+ 
+}
+
+/* .planWeddingDetails{
+  background-color: #fff;
+
+} */
+.planWeddingDetails h2{
+  padding-top:63px;
+ 
+  font-family: "Abhaya Libre", serif;
+font-size: 42px;
+font-weight: bold;
+font-stretch: normal;
+font-style: normal;
+line-height: normal;
+letter-spacing: normal;
+text-align: left;
+color: #050922;
+margin-bottom:16px;
+}
+.appleGooglePlay{
+  margin-bottom: 63px;
+}
+.planWeddingDetails p{
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #050922;
+}
+.weddingPhotoShowcase{
+  max-width: 761px!important;
+  width:100%;
+  margin-left:auto;
+  margin-right:auto;
+}
+.weddingPhotoSection{
+  margin-bottom:30px;
+}
+.weddingPhotoShowcase h2{
+  font-family: "Abhaya Libre", serif;
+  font-size: 42px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #050922;
+  margin-bottom:16px;
+}
+.weddingPhotoSection p{
+  font-family: "Poppins", sans-serif;
+font-size: 17px;
+font-weight: normal;
+font-stretch: normal;
+font-style: normal;
+line-height: normal;
+letter-spacing: normal;
+text-align: center;
+color: #373b54;
+}
+.weddingPhotpGetStarted{
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #fff;
+  background-color: #d7a844!important;
+  border:0;
+  border-radius: 3px;
+  box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+  padding: 10px;
+  width: 155px;
+}
+.weddingPhotoShowcase{
+  padding:36px 0;
+}
+
+/* carousel */
+.carousel-indicators [data-bs-target]{
+  border-radius:50%;
+  height:7px!important;
+  width:7px!important;
+  background-color: #d7a844!important;
+}
+.carouselWedding .carousel-indicators{
+  bottom:15%;
+}
+.carousel-indicators .active{
+  width: 23px!important;
+  border-radius:3.5px;
+}
+.carouselLiveStreaming h2{
+  font-family: "Abhaya Libre", serif;
+  font-size: 36px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #050922;
+  margin-bottom:16px;
+  height: auto;
+  max-height: 100%;
+}
+.carouselLiveStreaming p{
+  font-family: "Poppins", sans-serif;
+  font-size: 17px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #959595;
+  /* overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  line-clamp: 2;
+  -webkit-box-orient: vertical; */
+}
+.moreInfo{
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #fff;
+  background-color: #d7a844 !important;
+  border: 0;
+  box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+  border-radius: 3px;
+  padding: 10px;
+  width: 155px;
+}
+.accordion-button::after {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23373b54' viewBox='0 0 16 16'%3E%3Cpath fill-rule='evenodd' d='M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4z'/%3E%3C/svg%3E") !important;
+  background-size: 26px!important;
+}
+
+.accordion-button:not(.collapsed)::after {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23373b54'%3E%3Cpath d='M2 8a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1H2.5A.5.5 0 0 1 2 8z'/%3E%3C/svg%3E")!important;
+  background-size: 26px!important;
+}
+.accordion-button:not(.collapsed){
+  box-shadow:none!important;
+}
+.accrContent{
+display: flex;
+align-items:baseline;
+}
+
+
+.yourUltimate-navTabs{
+  justify-content:center;
+  border-color: #bfbfbf!important;
+  margin-top:54px;
+  justify-content:space-between;
+}
+.yourUltimate{
+  max-width:885px!important;
+  width:100%;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-direction: column;
+  padding-left:15px;
+  padding-right:15px;
+}
+.yourUltimate-navTabs button{
+  cursor:pointer;
+  border:none!important;
+}
+.yourUltimate-navTabs button.nav-link:hover svg path{
+  stroke: #fc2159;
+  color: #050922!important;
+}
+.yourUltimate-navTabs button.nav-link:hover{
+  color: #050922!important;
+  background:transparent;
+}
+.yourUltimate-navTabs button.nav-link.active svg path{
+  stroke: #fc2159;
+}
+.yourUltimate-navTabs .nav-link.active{
+  color: #050922 !important;
+  border:0!important;
+  position:relative;
+}
+.yourUltimate-navTabs .nav-link.active:after{
+  position:absolute;
+  content:"";
+  width:100%;
+  height:2px;
+  background-color: #fc2159;
+  bottom:0;
+}
+
+.yourUltimate-navTabs button span{
+  margin-bottom:14px;
+}
+.yourUltiTabcontent .tab1 p{
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #050922;
+  margin-top:66px;
+  margin-bottom:34px;
+  max-width:614px;
+  width:100%;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+
+.carousel-control-next, .carousel-control-prev {
+  color:#000!important;
+}
+
+.carouselWedding .carousel-control-prev,.carouselWedding .carousel-control-next{
+  top:auto!important;
+  bottom:15%!important;
+  color: #d7a844!important;
+  width:auto;
+  border: solid 0.5px #e6e6e6;
+  padding:8px;
+  border-radius:50%;
+  
+}
+.carouselWedding .carousel-control-prev{
+  left: 42%;
+  box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.16);
+}
+.carouselWedding .carousel-control-next{
+right:42%;
+box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.16);
+}
+.carouselWedding .carousel-indecators{
+margin-top:92px;
+}
+.carouselWedding .carousel-inner{
+  padding-bottom:278px;
+}
+.findPlan{
+  max-width:1200px;
+  width:100%;
+  margin-left:auto;
+  margin-right:auto;
+  padding-top: 71px;
+  padding-bottom: 167px;
+  /* max-width:calc(100% - 316px); */
+}
+.carouselWedding{
+  /* max-width:calc(100% - 316px); */
+  width:100%;
+  margin-left:auto;
+  margin-right:auto;
+  margin-top:118px;
+}
+.carouselWeddding:after{
+  
+}
+.findPlanContent h2{
+font-family: "Abhaya Libre", serif;
+font-size: 42px;
+font-weight: bold;
+font-stretch: normal;
+font-style: normal;
+line-height: normal;
+letter-spacing: normal;
+text-align: left;
+color: #050922;
+text-transform: capitalize;
+}
+.findPlanContent h2{
+font-family: "Abhaya Libre", serif;
+font-size: 42px;
+font-weight: bold;
+font-stretch: normal;
+font-style: normal;
+line-height: normal;
+letter-spacing: normal;
+text-align: left;
+color: #050922;
+margin-bottom: 30px;
+}
+.findPlanContent h3{
+font-family: "Abhaya Libre", serif;
+font-size: 32px;
+font-weight: normal;
+font-stretch: normal;
+font-style: normal;
+line-height: normal;
+letter-spacing: normal;
+text-align: left;
+color: #242a37;
+margin-bottom: 30px;
+text-transform: uppercase;
+}
+.findPlanContent p{
+font-family: "Poppins", sans-serif;
+font-size: 13px;
+font-weight: normal;
+font-stretch: normal;
+font-style: normal;
+line-height: normal;
+letter-spacing: normal;
+text-align: left;
+color: #242a37;
+margin-bottom: 20px;
+width:550px;
+max-width:100%;
+}
+.displayHours{
+border-radius: 6px;
+border: solid 1px #9e9e9e;
+background-color: #fff;
+padding:19px 33px 19px 36px;
+margin-bottom:17px;
+cursor:pointer;
+}
+.displayHours.selected{
+border-radius: 6px;
+box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+border: solid 1px #d7a844;
+
+}
+.displayHours .form-check-input[type=radio]:checked:after {
+background-color: #d7a844;
+}
+
+.form-check-input:checked{
+
+border-color:#d7a844!important;
+}
+.displayHours h4{
+font-family: "Abhaya Libre", serif;
+font-size: 21px;
+font-weight: normal;
+font-stretch: normal;
+font-style: normal;
+line-height: normal;
+letter-spacing: normal;
+text-align: left;
+color: #242a37;
+text-transform: uppercase;
+position:relative;
+padding-left:20px;
+}
+.displayHours.selected h4:after{
+position:absolute;
+content:"";
+width:9px;
+height:9px;
+background-color: #d7a844;
+border-radius:50%;
+border-radius: 50%;
+left: 3px;
+top: 5.5px;
+}
+.displayHours.selected h4:before{
+border-color: #d7a844;
+}
+.displayHours h4:before{
+content: "";
+position: absolute;
+width: 15px;
+height: 15px;
+border-radius: 50%;
+border: solid 0.5px #9e9e9e;
+left: 0;
+bottom: 7px;
+}
+.displayHours h4:after{
+
+}
+.displayHours p{
+font-family: "Poppins", sans-serif;
+font-size: 11px;
+font-weight: normal;
+font-stretch: normal;
+font-style: normal;
+line-height: normal;
+letter-spacing: normal;
+text-align: left;
+
+margin-bottom:0;
+color: #9e9e9e;
+}
+.displayHours.selected p{
+color: #373b54;
+}
+.displayHours .displayAmount{
+display:flex;
+justify-content:end;
+align-items:center;
+font-family: "Abhaya Libre", serif;
+font-size: 32px;
+font-weight:normal;
+font-stretch: normal;
+font-style: normal;
+line-height: normal;
+letter-spacing: normal;
+text-align: left;
+color: #242a37;
+}
+.displayHours.selected .displayAmount{
+font-weight: bold;
+}
+.continue{
+font-family: "Poppins", sans-serif;
+font-size: 16px;
+font-weight: 500;
+font-stretch: normal;
+font-style: normal;
+line-height: normal;
+letter-spacing: normal;
+text-align: center;
+color: #fff;
+border-radius: 6px;
+background-color: #d7a844;
+border-color: #d7a844;
+padding:12px;
+margin-top:18px;
+box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+border-radius: 3px;
+}
+.form-check-input:focus {
+box-shadow: none!important;
+outline: none;
+}
+.bestValue{
+  position: absolute;
+  top: 9px;
+  right: -20px;
+  background-color: #d7a844;
+  color: white;
+  font-family: "Poppins", sans-serif;
+  font-size: 8px;
+  font-weight: 500;
+  padding: 5px 10px;
+  transform: rotate(45deg);
+  z-index: 1;
+  width: 80px;
+  text-align: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  clip-path: polygon(28% 0%, 73% 0%, 100% 100%, 0% 100%);
+}
+.bestAmount{
+font-family: "Poppins", sans-serif;
+font-size: 11px;
+font-weight: normal;
+font-stretch: normal;
+font-style: normal;
+line-height: normal;
+letter-spacing: normal;
+text-align: right;
+color: #9e9e9e;
+text-decoration: line-through;
+}
+
+.planWeddingParent{
+/* max-width: calc(100% - 316px); */
+width: 100%;
+margin-left: auto!important;
+margin-right: auto!important;
+}
+.carouseWedding{
+/* max-width: calc(100% - 316px); */
+width: 100%;
+margin-left: auto!important;
+margin-right: auto!important;
+}
+
+.introductionDiv {
+/* position: absolute; */
+/* background: #fff; */
+padding: 20px;
+overflow: hidden;
+border-radius: 15px; /* Optional: if you want rounded corners as well */
+bottom:0;
+width:100%;
+background-image: url(../img/maskGroup.png);
+border-radius: 0;
+padding-bottom: 38px;
+}
+.yourUltimateParent{
+background-image: url("../img/maskGroup02.png");
+background-size: contain;
+background-repeat: no-repeat;
+position:relative;
+}
+.yourUltimateParent:before{
+position:absolute;
+content:"";
+background-image:url("../img/Group 3049.png");
+width: 20%;
+height:100%;
+background-repeat: no-repeat;
+top: -26vh;
+left: -62px;
+}
+.weddingPhotoShowParent{
+position: relative;
+}
+.weddingPhotoShowParent:before{
+position:absolute;
+content:"";
+background-image:url("../img/top.png");
+width: 272px;
+height:100%;
+background-repeat: no-repeat;
+top: -12%;
+left: 0;
+z-index:-1;
+/* transform: rotate(-35deg); */
+}
+.weddingPhotoShowParent:after{
+  position: absolute;
+  content: "";
+  background-image: url(../img/bottom.png);
+  width: 272px;
+  height: 100%;
+  background-repeat: no-repeat;
+  top: 45%;
+  right: 0;
+  z-index:-1;
+ /* transform: rotate(-38deg); */
+
+}
+.carouselWeddingParent{
+position:relative;
+margin-top:154px;
+margin-bottom: 102px;
+/* background-image:url("../img/Mask Group 106.png");
+width:100%;
+height:100%;
+background-repeat: no-repeat;
+background-size: contain;
+background-position: center; */
+}
+.worldClassImg .carousel-item{
+  position:relative;
+/* background-image:url("../img/Mask Group 106.png");
+width:100%;
+height:100%;
+background-repeat: no-repeat;
+background-size: contain;
+background-position: center; */
+}
+.worldClassImg .carousel-item:before{
+content:url("../img/Mask Group 106.png");
+position:absolute;
+width:100vw;
+background-size: cover;
+background-position: center;
+z-index:-1;
+top:30%;
+}
+.worldClassImg .carousel-item:nth-child(even):before {
+  content: url("../img/Mask Group 106.png");
+  position: absolute;
+  width: 100vw;
+  transform: rotate(180deg);
+}
+
+.carouselWeddingParent:before{
+position:absolute;
+content:"";
+background-image:url("../img/Group 3049.png");
+width:100vw;
+height:100%;
+background-repeat: no-repeat;
+top: -24%;
+left: -62px;
+}
+.carouselWeddingParent:after{
+  position: absolute;
+  content: "";
+  background-image: url(../img/Group3052.png);
+  width: 131px;
+  height: 100%;
+  background-repeat: no-repeat;
+  top: 36%;
+  right: 0;
+}
+.carouselWedding{
+position:relative;
+}
+.owl-carousel:before{
+position:absolute;
+content: "";
+background-image:url("../img/flowerDots.png");
+width:100%;
+height:100%;
+background-repeat: no-repeat;
+top: 100%;
+left: 0;
+}
+.findPlanParent{
+position:relative;
+z-index:3;
+}
+.findPlanParent:after{
+  position: absolute;
+  content: "";
+  background-image: url(../img/OBJECTS.png);
+  width: 195px;
+  height: 100%;
+  background-repeat: no-repeat;
+  bottom: -23%;
+  right: 0;
+  z-index: -1;
+}
+.findPlanParent:before{
+position:absolute;
+content:"";
+background-image:url("../img/OBJECTS2.png");
+width:25%;
+height:100%;
+background-repeat: no-repeat;
+top: 0;
+left: -11%;
+z-index:-1;
+}
+.worldClassImg{
+position:relative;
+}
+.mobilePlanDiv{
+display: flex;
+justify-content: end;
+padding-top:63px;
+}
+.googlePlay svg{
+width:112px;
+height:44px;
+}
+.faqParent{
+  position:relative
+}
+.faqParent:after{
+  position: absolute;
+  content: "";
+  background-image: url(../img/OBJECTS.png);
+  width: 193px;
+  height: 100%;
+  background-repeat: no-repeat;
+  bottom: -22%;
+  right: 0;
+  }
+  .faqParent:before{
+  position:absolute;
+  content:"";
+  background-image:url("../img/OBJECTS2.png");
+  width:100%;
+  height:100%;
+  background-repeat: no-repeat;
+  top: -10px;
+  left:0;
+  }
+
+  
+
+  /* start of modal */
+  /* Modal container */
+.modal {
+  display: none; 
+  position: fixed;
+  z-index: 999; 
+  padding-top: 60px; 
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Modal Content */
+.modal-content {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+  transition: transform 0.3s ease-in-out;
+}
+
+/* Close button */
+#imageModal .close {
+  position: absolute;
+  top: 15px;
+  right: 35px;
+  color: #d7a844;
+  font-size: 40px;
+  font-weight: normal;
+  cursor: pointer;
+}
+
+.modal-content:hover {
+  transform: scale(1.1);
+}
+
+/* Navigation buttons */
+#imageModal .prev, #imageModal .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  color: #d7a844;
+  font-weight: normal;
+  font-size: 30px;
+  transition: 0.3s;
+  user-select: none;
+  text-decoration: none;
+}
+#imageModal .prev:hover, #imageModal .next:hover{
+background:transparent;
+}
+
+.prev {
+  left: 0;
+}
+
+.next {
+  right: 0;
+}
+
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+/* end of modal */
+.weddingPhotoSection img{
+cursor:pointer;
+}
+.weddingPhotoSection{
+  /* height:200px; */
+}
+.weddingPhotoSection div{
+   /* width:100%; */
+   /* height:100%; */
+   /* background-size: cover; */
+   /* background-repeat: no-repeat; */
+   /* background-position: top; */
+   /* cursor:pointer; */
+   border: solid 2px #f5f5f5;
+}
+.weddingPhotoSection div:hover{
+  box-shadow: 0 3px 5px 0 rgba(0, 0, 0, 0.16);
+  border-color: #d7a844;
+}
+
+.weddingPhotoSection > div {
+  position: relative;
+  width: 100%;
+}
+
+.weddingPhotoSection > div::before {
+  content: "";
+  display: block;
+  padding-top: 56.25%; /* 16:9 aspect ratio */
+}
+
+.weddingPhotoSection1,
+.weddingPhotoSection2,
+.weddingPhotoSection3,
+.weddingPhotoSection4,
+.weddingPhotoSection5,
+.weddingPhotoSection6 {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border: solid 2px #f5f5f5;
+  cursor: pointer;
+}
+.weddingPhotoSection1{
+  background-image:url("../img/show\ 1\ .jpg"); 
+}
+.weddingPhotoSection2{
+  background-image:url("../img/show\ two.jpg");
+}
+
+.weddingPhotoSection3{
+  background-image:url("../img/show\ 3.jpg");
+}
+.weddingPhotoSection4{
+  background-image:url("../img/show\ 4.jpg");
+}
+.weddingPhotoSection5{
+  background-image:url("../img/show\ 5.jpg");
+}
+
+.weddingPhotoSection6{
+  background-image:url("../img/show\ 6.jpg");
+}
+
+
+/* carousel */
+
+
+.contain {
+  margin: 0 auto;
+  max-width: 1200px;
+  width: 100%;
+}
+
+#owl-carousel .item {
+  align-items: center;
+  color: white;
+  display: flex;
+  justify-content: center;
+}
+#owl-carousel .owl-item .item{
+  position: relative;; 
+}
+#owl-carousel .owl-carousel .item::before {
+  content: "";
+  position: absolute;
+  width: 100vw;
+  height: 100%; /* Ensures the pseudo-element covers the entire height */
+  background-image: url("../img/Mask Group 106.png");
+  background-size: cover;
+  background-position: center;
+  z-index: -1;
+  top: 0;
+  left: 0;
+}
+
+#owl-carousel .owl-carousel .item:nth-child(even)::before {
+  transform: rotate(180deg);
+}
+
+#owl-carousel .owl-nav {
+  position: relative;
+}
+
+
+#owl-carousel .owl-nav button {
+  background: none;
+  border: none;
+  width: 40px; /* Adjust as needed */
+  height: 40px; /* Adjust as needed */
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#owl-carousel .owl-prev span::before,
+#owl-carousel .owl-next span::before {
+  content: '';
+  display: block;
+  width: 14px;
+  height: 17px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+#owl-carousel .owl-prev span::before {
+  content: url('data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%2217%22 height=%2214%22 viewBox=%220 0 17 14%22%3E%3Cpath id=%22Path_5470%22 data-name=%22Path 5470%22 d=%22M2.354%2C12.243a.9.9%2C0%2C0%2C0.3.679l6.006%2C6.039a.906.906%2C0%2C0%2C0.649.282.878.878%2C0%2C0%2C0.638-.248.834.834%2C0%2C0%2C0.255-.624.95.95%2C0%2C0%2C0-.069-.36.871.871%2C0%2C0%2C0-.188-.29L7.914%2C15.641l-3.48-3.191-.263.518%2C3.04.185H18.449a.909.909%2C0%2C1%2C0%2C0-1.818H7.211l-3.04.184.263.526%2C3.48-3.2L9.946%2C6.766a.872.872%2C0%2C0%2C0.188-.29.947.947%2C0%2C0%2C0.069-.36.836.836%2C0%2C0%2C0-.255-.625.877.877%2C0%2C0%2C0-.638-.249.863.863%2C0%2C0%2C0-.344.071%2C1.145%2C1.145%2C0%2C0%2C0-.331.228L2.656%2C11.564A.906.906%2C0%2C0%2C0%2C2.354%2C12.243Z%22 transform=%22translate(-2.354%20-5.242)%22 fill=%22%23d7a844%22/%3E%3C/svg%3E');
+
+  top: 10px;
+  position: absolute;
+  left: 11px;}
+
+  #owl-carousel .owl-next span::before {
+  content: url('data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%2217%22 height=%2214%22 viewBox=%220 0 17 14%22%3E%3Cpath id=%22Path_5471%22 data-name=%22Path 5471%22 d=%22M19.354%2C12.243a.9.9%2C0%2C0%2C1-.3.679l-6.006%2C6.039a.906.906%2C0%2C0%2C1-.649.282.878.878%2C0%2C0%2C1-.638-.248.834.834%2C0%2C0%2C1-.255-.624.95.95%2C0%2C0%2C1.069-.36.871.871%2C0%2C0%2C1.188-.29l2.032-2.079%2C3.48-3.191.263.518-3.04.185H3.258a.909.909%2C0%2C1%2C1%2C0-1.818H14.5l3.04.184-.263.526-3.48-3.2L11.761%2C6.766a.872.872%2C0%2C0%2C1-.188-.29.947.947%2C0%2C0%2C1-.069-.36.836.836%2C0%2C0%2C1.255-.625.877.877%2C0%2C0%2C1.638-.249.863.863%2C0%2C0%2C1.344.071%2C1.145%2C1.145%2C0%2C0%2C1.331.228l5.981%2C6.022A.906.906%2C0%2C0%2C1%2C19.354%2C12.243Z%22 transform=%22translate(-2.354%20-5.242)%22 fill=%22%23d7a844%22/%3E%3C/svg%3E');
+  top: 10px;
+  position: absolute;
+  left: 11px;
+}
+
+#owl-carousel .owl-prev,
+#owl-carousel .owl-next {
+  position: absolute;
+ /* Ensure this matches the button dimensions */
+  padding: 8px;
+  border-radius: 50%;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.16);
+  border: solid 0.5px #e6e6e6;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius:50%!important;
+  top:-16px;
+}
+
+#owl-carousel .owl-prev {
+  left: calc(50% - 100px);
+}
+#owl-carousel .owl-prev span,#owl-carousel .owl-next span{
+  color:transparent;
+}
+
+#owl-carousel .owl-next {
+  right: calc(50% - 100px);
+}
+/* #owl-carousel .owl-dots{
+  margin-top:92px;
+} */
+#owl-carousel .owl-theme .owl-dots .owl-dot span{
+  background-color: #d7a844!important;
+}
+#owl-carousel .owl-theme .owl-dots .owl-dot.active span{
+width:23px;
+}
+.owl-theme .owl-dots .owl-dot span{
+  background-color: #d7a844!important;
+}
+
+.owl-prev:hover, .owl-next:hover{
+  background-color: #c4943d !important;
+}
+.owl-prev:hover span::before, .owl-next:hover span::before{
+  filter: brightness(0) invert(1); /* Converts the image to white */
+}
+
+#scroll svg:hover{
+  background-color: #fff;
+}
+#scroll:hover svg{
+  fill:#c4943d ;
+}
+#owl-carouselMobile .item{
+  padding:45px;
+  border-radius: 6px;
+  box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+  border: solid 0.5px #fc2159;
+  margin-top:82px;
+}
+#owl-carouselMobile h2{
+  font-family: "Poppins", sans-serif;
+  font-size: 17px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 1.28px;
+  text-align: left;
+  color: #050922;
+  margin-top:16px;
+}
+#owl-carouselMobile .owl-nav{
+  display:none;
+}
+#owl-carouselMobile .owl-dot span{
+  border: solid 1px #d7a844;
+    background: transparent!important;
+    margin-top: 34px;
+    margin-bottom:52px;
+}
+#owl-carouselMobile .owl-dot.active span{
+  background-color: #d7a844!important;
+}
+#owl-carouselMobile p{
+  font-family: "Poppins", sans-serif;
+  font-size: 17px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #373b54;
+}
+#owl-carousel .item:before{
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  /* background-image: url("../img/hardLine.png"); */
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  z-index:-1;
+  }
+  #owl-carousel .item.even:before {
+    /* background-image: url("../img/hardLine.png"); */
+    transform: rotate(180deg);
+  }
+  .laptopImg{
+    width:343px;
+  }
+  .tabMobileImg{
+    width:262px;
+    max-width: 100%;
+  }
+
+  .desktopCarousel .owl-dot.active span{
+    border-radius: 3.5px;
+    width:23px!important;
+  }
+ 
+  .displayHours:hover{
+    border-radius: 6px;
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+    border: solid 1px #d7a844;
+  }
+  .displayHours:hover .displayAmount{
+  font-weight: bold;
+  }
+.dollar{
+  font-size: 16px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #373b54;
+  font-family: "Abhaya Libre", serif;
+  margin-right:3px;
+}
+.secondDollar{
+  position: absolute;
+  right: 118px;
+  top: 29px;
+}
+
+
+@media(min-width:1199px){
+  .findPlan{
+    max-width: calc(100% - 316px) !important;
+  }
+  .planWeddingParent {
+    max-width: calc(100% - 316px) !important;
+  }
+}
+  
+  @media(max-width:991.98px){
+    .footerContentDeatails {
+      grid-template-columns: repeat(3, 1fr)!important;
+  }
+  .footerReserved{
+    width:100%!important;
+  }
+
+
+.lapTabImg{
+  position:relative;
+}
+  .lapTabImg:before{
+    position:absolute;
+    content:"";
+background-image: url("../img/flowerLap.png");
+width: 100%;
+height: 100%;
+background-repeat: no-repeat;
+z-index: -1;
+left: -16px;
+  }
+  .lapTabImg:after{
+    position:absolute;
+    content:"";
+    background-image: url("../img/mobileLapflower.png");
+    width: 100%;
+        height: 100%;
+        background-repeat: no-repeat;
+        z-index: -1;
+        right: 0;
+        top: 50%;
+        background-position: right;
+  }
+  .owl-carousel:before, .weddingPhotoShowParent:before,
+  .carouselWeddingParent:before,.carouselWeddingParent:after,
+  .findPlanParent:after,.yourUltimateParent:before{
+    background-image: none;
+  }
+  .faqParent:before{
+    background-image: url("../img/invertFlower.png");
+  }
+  .faqParent:after{
+    background-image: url("../img/invertFlower.png");
+    transform: rotate(180deg);
+    bottom: 0;
+  }
+  .weddingPhotoShowParent:after{
+    background-image: url("../img/mobilePhotographyFlower.png");
+    background-position: top right;
+    right:0;
+    top: 0;
+  }
+  .findPlanParent:before{
+    background-image: url("../img/hoursFolwer.png");
+    bottom: 0;
+        background-position: bottom;
+        left:0;
+  }
+  }
+@media(max-width:767.98px){
+  .tabMobileImg{
+    margin-top:48px;
+  }
+  .yourUltimateParent:before{
+    display:none;
+  }
+  .monitr,.carouselDesktop{
+    margin-bottom: 37px;
+  }
+  .mobileImg{
+    margin-top:37px;
+  }
+  .planWedding{
+    background-image: url('../img/banner_bgMobile.png');
+  }
+  .planWeddingDetails h2{
+    text-align:center;
+    margin-bottom:18px;
+  }
+  .planWeddingDetails p{
+    text-align:center;
+  }
+  .carouselLiveStreaming .moreInfo{
+    margin-bottom:36px;
+  }
+  .yourUltimate p{
+    margin-bottom:0;
+  }
+}
+
+@media(max-width:575.9px){
+
+  .weddingLiveDiv h3,.yourUltimate h2,.planWeddingDetails h2,
+  .weddingPhotoShowcase h2,.carouselLiveStreaming h2,.faq h2
+  {
+    font-size:30px;
+  }
+ 
+  .yourUltimate,.weddingPhotoShowcase{
+    width: calc(100% - 32px)!important;
+  }
+  .allRights > div:first-child{
+    margin-bottom:16px!important;
+  }
+  .accrContent{
+padding:10px 0!important;
+  }
+  .footerMobileSection{
+    padding:20px 16px;
+  }
+  .faq{
+    padding:20px;
+  }
+
+  .faq h2,.footerMobileSection .getWeddingApp{
+    margin-bottom:0;
+  }
+  .yourUltimate p,.weddingPhotoShowcase p,.monitr,.carouselLiveStreaming h2,
+  .footerMobileAdress p,.footerSocialParent,.footerMobileSection h3,
+  .carouselLiveStreaming .moreInfo,.footerMobileSection .vivahaLogo,.footerMobileLink
+  {
+    margin-bottom:16px;
+  }
+  .tabMobileImg{
+    margin-top: 16px;
+}
+.mobileImg{
+  margin-top:0;
+}
+.footerContactInf{
+  padding: 20px 0!important;
+}
+.carouselWeddingParent{
+  margin-top:20px;
+  margin-bottom:20px;
+}
+.findPlan,.weddingPhotoShowcase, .footerContactInf{
+  padding-top:20px;
+  padding-bottom:20px;
+}
+#owl-carouselMobile .item{
+  margin-top:16px;
+  padding:16px;
+}
+#owl-carouselMobile .owl-dot span{
+  margin-top:16px;
+  margin-bottom:16px;
+}
+  #scroll{
+    right:18px!important;
+    bottom:18px!important;
+  }
+  .weddingLiveDiv h3{
+    margin-bottom:21px;
+  }
+  .weddingLiveDiv p{
+    margin-bottom:24px;
+  }
+  .introductionDiv h3{
+    margin-top:92px;
+  }
+  
+  .yourUltimate h2,.appleGooglePlay{
+    margin-bottom: 16px;
+  }
+  .mobilePlanDiv{
+    padding-top:0;
+  }
+  .yourUltimate{
+    padding: 10px 0 ;
+  }
+  .planWeddingDetails h2{
+    text-align:center;
+    margin-bottom:16px;
+    padding-top:20px;
+  }
+  .accrContent{
+    font-size:18px;
+  }
+  .displayHours{
+    padding:15px;
+  }
+  .displayHours .displayAmount{
+    font-size:20px;
+  }
+  .introductionDiv{
+  /* background-image: url('../img/shape.png'); */
+    background-size: cover;
+    width:100%;
+    background-position: bottom;
+    background-repeat:no-repeat;
+    padding-bottom:10px;
+  }
+  /* .weddingPhotoShowcase p{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+            line-clamp: 2;
+    -webkit-box-orient: vertical;
+  } */
+  /* #owl-carouselMobile p{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    line-clamp: 2;
+    -webkit-box-orient: vertical;
+  } */
+  #owl-carousel .owl-nav button{
+    display:none;
+  }
+  .owl-theme .owl-dots .owl-dot span{
+    background-color: transparent!important;
+    border:1px solid #d7a844;
+  }
+  .desktopCarousel .owl-dot.active span{
+    width:10px!important;
+    background-color:#d7a844!important
+  }
+  .footerContactInf h3{
+    font-size:35px;
+  }
+  .loveToAssist{
+    padding-left:16px;
+    padding-right:16px;
+  }
+}
+@media(max-width:375.98px){
+  .displayHours h4{
+    font-size:18px;
+  }
+  .displayHours .displayAmount{
+    font-size:18px;
+  }
+  .allRights .terms{
+    width:50%!important;
+  }
+ .laptopImg{
+    width:300px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  #imageModal img {
+      max-width: calc(100% - 60px);
+      max-height: 80%; /* Adjust to fit in smaller viewports */
+  }
+
+  #imageModal .close {
+      font-size: 30px;
+  }
+
+  #imageModal .prev, #imageModal .next {
+      font-size: 30px;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  #imageModal .prev, #imageModal .next {
+      font-size: 25px;
+      padding: 8px;
+  }
+}
+@media(max-width:1567px) and (min-width:991.98px){
+  .displayHours .displayAmount{
+    font-size:26px;
+   
+  }
+ 
+  .displayHours{
+    padding:19px 30px;
+
+  }
+}

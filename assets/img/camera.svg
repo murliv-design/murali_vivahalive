@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="72" height="72" viewBox="0 0 72 72">
+    <path d="M13.554 60h31.44c8.28 0 11.58-5.07 11.97-11.25l1.56-24.78A11.259 11.259 0 0 0 47.274 12a4.93 4.93 0 0 1-4.35-2.67l-2.16-4.35A9.9 9.9 0 0 0 32.724 0h-6.87a9.909 9.909 0 0 0-8.07 4.98l-2.16 4.35a4.93 4.93 0 0 1-4.35 2.67A11.259 11.259 0 0 0 .024 23.97l1.56 24.78C1.944 54.93 5.274 60 13.554 60z" transform="translate(6.726 6)" style="stroke:#fc2159;stroke-linecap:round;stroke-linejoin:round;stroke-width:2px;fill:none"/>
+    <path data-name="Vector" d="M0 0h9" transform="translate(31.5 24)" style="stroke:#fc2159;stroke-linecap:round;stroke-linejoin:round;stroke-width:2px;fill:none"/>
+    <path data-name="Vector" d="M9.75 19.5A9.75 9.75 0 1 0 0 9.75a9.769 9.769 0 0 0 9.75 9.75z" transform="translate(26.25 34.5)" style="stroke:#fc2159;stroke-linecap:round;stroke-linejoin:round;stroke-width:2px;fill:none"/>
+</svg>
